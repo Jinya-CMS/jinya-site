@@ -11,7 +11,8 @@
   @include extra-small-screen {
     margin: auto;
     padding-top: 0;
-    padding-left: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
@@ -39,5 +40,42 @@
 
   @include extra-small-screen {
     font-size: 2rem;
+  }
+}
+
+.jinya-header__arrow {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  left: 50%;
+  cursor: pointer;
+  transition: all 0.3s;
+  bottom: 5rem;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  transform: rotate(45deg) translate(-50%);
+  border-bottom: 8px solid $white;
+  border-right: 8px solid $white;
+
+  @include small-screen {
+    border-color: $primary;
+  }
+
+  @include extra-small-screen {
+    border-color: $primary;
+  }
+
+  @keyframes bounce {
+    0% {
+      bottom: 5rem;
+    }
+    50% {
+      bottom: 3rem;
+    }
+    100% {
+      bottom: 5rem;
+    }
   }
 }
