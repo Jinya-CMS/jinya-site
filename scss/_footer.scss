@@ -3,7 +3,6 @@
   background: lighten($primary, 40%);
   color: $white;
   display: flex;
-  justify-content: center;
   padding: 2rem 1rem;
   margin-top: auto;
 }
@@ -15,4 +14,14 @@
 .jinya-footer__link {
   color: $white;
   text-decoration: none;
+}
+
+.jinya-footer__link--imprint {
+  margin-left: auto;
+  margin-right: 10%;
+}
+
+.jinya-footer__claim{
+  margin-left: 10%;
+  margin-right: auto;
 }
