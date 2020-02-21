@@ -72,13 +72,12 @@ const Home = () => (
           <h2 className="jinya-sites__heading">Sites made with <i>Jinya</i></h2>
           <div className="jinya-sites__list">
             <div className="jinya-sites__list-item jinya-sites__list-item--left">
-              <img className="jinya-sites__image jinya-sites__image--left" src="/startpage-touch.jpg" alt="" />
+              <img className="jinya-sites__image jinya-sites__image--left" src="/jenny-jinya.com.png" alt="" />
               <div className="jinya-sites__content jinya-sites__content--right">
                 <h3 className="jinya-sites__site-header">jenny-jinya.com</h3>
                 <p className="jinya-sites__site-content">
                   Jenny Jinya is a freelance illustrator based in Germany, she studies Digital Media and had a number
-                  of exhibitions since she is 16, her new portfolio got an incredible amount of positive feedback over
-                  time.
+                  of exhibitions since she is 16, her new portfolio got an incredible amount of positive feedback.
                 </p>
                 <a className="jinya-sites__site-link" href="https://jenny-jinya.com">Go to jenny-jinya.com</a>
               </div>
@@ -87,22 +86,20 @@ const Home = () => (
               <div className="jinya-sites__content jinya-sites__content--left">
                 <h3 className="jinya-sites__site-header">Jintoonz</h3>
                 <p className="jinya-sites__site-content">
-                  Jenny Jinya is a freelance illustrator based in Germany, she studies Digital Media and had a number
-                  of exhibitions since she is 16, her new portfolio got an incredible amount of positive feedback over
-                  time.
+                  Jintoonz is the website of the artist Jenny-Jinya. She is the creator of the famous loving reaper
+                  comic series. She trusts <i>Jinya</i> to give people the perfect view on her comics.
                 </p>
                 <a className="jinya-sites__site-link" href="https://comics.jenny-jinya.com">Go to Jintoonz</a>
               </div>
-              <img className="jinya-sites__image jinya-sites__image--right" src="/startpage-touch.jpg" alt="" />
+              <img className="jinya-sites__image jinya-sites__image--right" src="/jintoonz.png" alt="" />
             </div>
             <div className="jinya-sites__list-item jinya-sites__list-item--left">
-              <img className="jinya-sites__image jinya-sites__image--left" src="/startpage-touch.jpg" alt="" />
+              <img className="jinya-sites__image jinya-sites__image--left" src="/imanuel.ulbricht.design.png" alt="" />
               <div className="jinya-sites__content jinya-sites__content--right">
                 <h3 className="jinya-sites__site-header">Imanuel Ulbricht Design</h3>
                 <p className="jinya-sites__site-content">
-                  Jenny Jinya is a freelance illustrator based in Germany, she studies Digital Media and had a number
-                  of exhibitions since she is 16, her new portfolio got an incredible amount of positive feedback over
-                  time.
+                  Imanuel Ulbricht is a professional web developer, web designer and app designer. The portfolio was
+                  created with the default theme of <i>Jinya</i> and is the perfect showcase.
                 </p>
                 <a className="jinya-sites__site-link" href="https://jenny-jinya.com">Go to Imanuel Ulbricht Design</a>
               </div>
@@ -121,7 +118,8 @@ const Home = () => (
           <h3 className="jinya-get__heading jinya-get__heading--theming">Theming</h3>
           <p>
             <i>Jinya</i> itself is open source, so anyone can create a theme for it. But getting a theme created by the
-            Jinya Developers has the advantage, that you get a theme created by the creators of <i>Jinya</i>. Please reach
+            Jinya Developers has the advantage, that you get a theme created by the creators of <i>Jinya</i>. Please
+            reach
             out to us at <a className="jinya-get__mail-us" href="mailto:developers@jinya.de">developers@jinya.de</a>.
           </p>
         </div>
