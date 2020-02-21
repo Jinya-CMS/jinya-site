@@ -1,6 +1,7 @@
 {
   "name": "jinya-site",
   "version": "1.0.0",
+  "license": "MIT",
   "author": "Jinya Developers <developers@jinya.de>",
   "scripts": {
     "dev": "next dev",
