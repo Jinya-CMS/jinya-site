@@ -1,0 +1,28 @@
+.jinya-section {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  background: $white;
+}
+
+.jinya-section--header {
+  background: transparent;
+}
+
+.jinya-section--about {
+  padding: 2rem 10% 3rem;
+  background: $primary;
+}
+
+.jinya-section--sites {
+  padding: 2rem 10% 3rem;
+  background: $secondary;
+}
+
+.jinya-section--get {
+  padding: 2rem 10% 3rem;
+  background: $primary;
+}
+

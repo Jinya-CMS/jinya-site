@@ -1,0 +1,43 @@
+.jinya-header {
+  padding-top: 10rem;
+  padding-left: 10rem;
+
+  @include small-screen {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    margin-bottom: auto;
+  }
+
+  @include extra-small-screen {
+    margin: auto;
+    padding-top: 0;
+    padding-left: 0;
+  }
+}
+
+.jinya-header__brand {
+  color: #504a56;
+  margin: 0;
+  font-size: 4rem;
+
+  @include small-screen {
+    font-size: 3rem;
+  }
+
+  @include extra-small-screen {
+    font-size: 3rem;
+  }
+}
+
+.jinya-header__teaser {
+  font-size: 2rem;
+  color: #504a56;
+
+  @include small-screen {
+    font-size: 2rem;
+  }
+
+  @include extra-small-screen {
+    font-size: 2rem;
+  }
+}

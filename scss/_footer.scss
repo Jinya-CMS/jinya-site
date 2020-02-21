@@ -1,0 +1,18 @@
+.jinya-footer {
+  width: 100%;
+  background: lighten($primary, 40%);
+  color: $white;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  margin-top: auto;
+}
+
+.jinya-footer__heart {
+  color: #dc3545;
+}
+
+.jinya-footer__link {
+  color: $white;
+  text-decoration: none;
+}

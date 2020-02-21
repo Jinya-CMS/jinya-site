@@ -1,0 +1,46 @@
+.jinya-blocks {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+  flex-flow: row wrap;
+}
+
+.jinya-blocks__block {
+  flex: 0 0 33%;
+
+  @include extra-small-screen {
+    flex-basis: 100%;
+  }
+}
+
+.jinya-about {
+  padding: 10%;
+  border-radius: 5px;
+  background: lighten($primary, 65%);
+  display: flex;
+}
+
+.jinya-about__heading {
+  font-size: 3rem;
+}
+
+.jinya-blocks__header {
+  font-size: 2rem;
+}
+
+.jinya-blocks__content {
+  font-size: 1rem;
+}
+
+.jinya-about__content {
+  font-size: 1rem;
+}
+
+.jinya-about__logo {
+  @include small-screen {
+    display: none;
+  }
+  @include extra-small-screen {
+    display: none;
+  }
+}

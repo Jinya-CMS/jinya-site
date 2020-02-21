@@ -1,0 +1,98 @@
+.jinya-sites__list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.jinya-sites__list-item {
+  display: flex;
+  flex: 0 0 100%;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  align-items: flex-start;
+}
+
+.jinya-sites__list-item--right {
+  flex-flow: row wrap-reverse;
+}
+
+.jinya-sites__list-item--left {
+  flex-flow: row wrap;
+}
+
+.jinya-sites__image {
+  object-fit: scale-down;
+  flex: 0 0 50%;
+  width: 50%;
+
+  @include extra-small-screen {
+    flex-basis: 100%;
+    width: 100%;
+  }
+}
+
+.jinya-sites__content {
+  flex: 0 0;
+  flex-basis: calc(50% - 1rem);
+
+  @include extra-small-screen {
+    flex-basis: 100%;
+    width: 100%;
+  }
+}
+
+.jinya-sites {
+  padding: 10%;
+  border-radius: 5px;
+  background: lighten($secondary, 50%);
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.jinya-sites__image--left {
+  margin-right: 1rem;
+
+  @include extra-small-screen {
+    margin-right: 0;
+  }
+}
+
+.jinya-sites__image--right {
+  margin-left: 1rem;
+
+  @include extra-small-screen {
+    margin-left: 0;
+  }
+}
+
+.jinya-sites__heading {
+  flex: 0 0 100%;
+  font-size: 3rem;
+}
+
+.jinya-sites__site-header {
+  font-size: 2rem;
+}
+
+.jinya-sites__site-content {
+  font-size: 1rem;
+}
+
+.jinya-sites__site-link {
+  font-size: 1rem;
+  border-radius: 8px;
+  padding: 0.25rem 0.5rem;
+  border: 2px solid $secondary;
+  text-decoration: none;
+  color: $secondary;
+  transition: all 0.3s;
+
+  &:hover {
+    background: $secondary;
+    color: $white;
+  }
+
+  @include extra-small-screen {
+    border: none;
+    padding: 0;
+  }
+}

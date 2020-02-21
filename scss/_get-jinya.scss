@@ -1,0 +1,20 @@
+.jinya-get {
+  padding: 10%;
+  border-radius: 5px;
+  background: lighten($primary, 65%);
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.jinya-get__heading {
+  font-size: 3rem;
+}
+
+.jinya-get__heading--theming {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.jinya-get__mail-us{
+  color: $primary;
+}
