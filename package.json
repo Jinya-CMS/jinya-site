@@ -1,6 +1,6 @@
 {
   "name": "jinya-site",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "license": "MIT",
   "author": "Jinya Developers <developers@jinya.de>",
   "scripts": {
@@ -9,7 +9,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@zeit/next-sass": "^1.0.1",
     "file-loader": "^5.0.2",
     "next": "^9.2.2",
     "next-react-svg": "^1.1.0",

@@ -82,7 +82,7 @@ const Home = () => {
                 </p>
                 <a className="jinya-sites__site-link" href="https://lovingreaper.com">Go to Loving Reaper</a>
               </div>
-              <img className="jinya-sites__image jinya-sites__image--right" src="/lovingreaper.com.png" alt="" />
+              <img className="jinya-sites__image jinya-sites__image--right" src="/lovingreaper.com.jpg" alt="" />
             </div>
             <div className="jinya-sites__list-item jinya-sites__list-item--left">
               <img className="jinya-sites__image jinya-sites__image--left" src="/imanuel.ulbricht.design.png" alt="" />
