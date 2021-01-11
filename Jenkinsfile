@@ -30,9 +30,6 @@ spec:
     }
     stages {
         stage('Push') {
-            when {
-                buildingTag()
-            }
             steps {
                 container('docker') {
                     sh "docker build -t registry-hosted.imanuel.dev/sites/imanuel.ulbricht.codes:$TAG_NAME ."
