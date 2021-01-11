@@ -75,14 +75,14 @@ const Home = () => {
             </div>
             <div className="jinya-sites__list-item jinya-sites__list-item--right">
               <div className="jinya-sites__content jinya-sites__content--left">
-                <h3 className="jinya-sites__site-header">Jintoonz</h3>
+                <h3 className="jinya-sites__site-header">Loving Reaper</h3>
                 <p className="jinya-sites__site-content">
-                  Jintoonz is the website of the artist Jenny-Jinya. She is the creator of the famous loving reaper
+                  Jintoonz is the website of the artist Jenny-Jinya. She is the creator of the famous Loving Reaper
                   comic series. She trusts <i>Jinya</i> to give people the perfect view on her comics.
                 </p>
-                <a className="jinya-sites__site-link" href="https://comics.jenny-jinya.com">Go to Jintoonz</a>
+                <a className="jinya-sites__site-link" href="https://lovingreaper.com">Go to Loving Reaper</a>
               </div>
-              <img className="jinya-sites__image jinya-sites__image--right" src="/jintoonz.png" alt="" />
+              <img className="jinya-sites__image jinya-sites__image--right" src="/lovingreaper.com.png" alt="" />
             </div>
             <div className="jinya-sites__list-item jinya-sites__list-item--left">
               <img className="jinya-sites__image jinya-sites__image--left" src="/imanuel.ulbricht.design.png" alt="" />
