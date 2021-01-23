@@ -9,15 +9,13 @@ pipeline {
 apiVersion: v1
 kind: Pod
 spec:
-  imagePullSecrets:
-    - name: dev-imanuel-jenkins-regcred
   volumes:
     - name: docker-sock
       hostPath:
         path: /var/run/docker.sock
   containers:
   - name: docker
-    image: registry.imanuel.dev/library/docker:stable
+    image: docker:latest
     command:
     - cat
     tty: true
