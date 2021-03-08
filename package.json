@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "file-loader": "^5.0.2",
-    "next": "^9.2.2",
+    "next": "^10.0.8",
     "next-react-svg": "^1.1.0",
     "node-sass": "^4.13.0",
     "react": "^16.12.0",
