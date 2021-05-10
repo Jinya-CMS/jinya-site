@@ -1,3 +1,8 @@
+.jinya-section--sites {
+  padding: 2rem 10% 3rem;
+  background: var(--secondary-color);
+}
+
 .jinya-sites__list {
   display: flex;
   flex-flow: row wrap;
@@ -22,8 +27,10 @@
   object-fit: scale-down;
   flex: 0 0 50%;
   width: 50%;
+}
 
-  @include extra-small-screen {
+@media screen and (max-width: 1023px) {
+  .jinya-sites__image {
     flex-basis: 100%;
     width: 100%;
   }
@@ -31,9 +38,12 @@
 
 .jinya-sites__content {
   flex: 0 0;
+  flex-basis: -webkit-calc(50% - 1rem);
   flex-basis: calc(50% - 1rem);
+}
 
-  @include extra-small-screen {
+@media screen and (max-width: 1023px) {
+  .jinya-sites__content {
     flex-basis: 100%;
     width: 100%;
   }
@@ -42,23 +52,27 @@
 .jinya-sites {
   padding: 10%;
   border-radius: 5px;
-  background: lighten($secondary, 50%);
+  background: var(--sites-background-color);
   display: flex;
   flex-flow: row wrap;
 }
 
 .jinya-sites__image--left {
   margin-right: 1rem;
+}
 
-  @include extra-small-screen {
+@media screen and (max-width: 1023px) {
+  .jinya-sites__image--left {
     margin-right: 0;
   }
 }
 
 .jinya-sites__image--right {
   margin-left: 1rem;
+}
 
-  @include extra-small-screen {
+@media screen and (max-width: 1023px) {
+  .jinya-sites__image--right {
     margin-left: 0;
   }
 }
@@ -79,18 +93,20 @@
 .jinya-sites__site-link {
   font-size: 1rem;
   border-radius: 8px;
-  padding: 0.25rem 0.5rem;
-  border: 2px solid $secondary;
+  padding: .25rem .5rem;
+  border: 2px solid var(--secondary-color);
   text-decoration: none;
-  color: $secondary;
-  transition: all 0.3s;
+  color: var(--secondary-color);
+  transition: all .3s;
+}
 
-  &:hover {
-    background: $secondary;
-    color: $white;
-  }
+.jinya-sites__site-link:hover {
+  background: var(--secondary-color);
+  color: var(--white);
+}
 
-  @include extra-small-screen {
+@media screen and (max-width: 1023px) {
+  .jinya-sites__site-link {
     border: none;
     padding: 0;
   }

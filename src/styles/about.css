@@ -1,3 +1,8 @@
+.jinya-section--about {
+  padding: 2rem 10% 3rem;
+  background: var(--primary-color);
+}
+
 .jinya-blocks {
   display: flex;
   justify-content: space-evenly;
@@ -7,8 +12,10 @@
 
 .jinya-blocks__block {
   flex: 0 0 33%;
+}
 
-  @include extra-small-screen {
+@media screen and (max-width: 1023px) {
+  .jinya-blocks__block {
     flex-basis: 100%;
   }
 }
@@ -16,7 +23,7 @@
 .jinya-about {
   padding: 10%;
   border-radius: 5px;
-  background: lighten($primary, 65%);
+  background: var(--sites-background-color);
   display: flex;
 }
 
@@ -28,19 +35,20 @@
   font-size: 2rem;
 }
 
+.jinya-about__content,
 .jinya-blocks__content {
   font-size: 1rem;
 }
 
-.jinya-about__content {
-  font-size: 1rem;
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+  .jinya-about__logo {
+    display: none;
+  }
 }
 
-.jinya-about__logo {
-  @include small-screen {
-    display: none;
-  }
-  @include extra-small-screen {
+@media screen and (max-width: 1023px) {
+  .jinya-about__logo {
     display: none;
   }
 }
+

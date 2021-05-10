@@ -1,7 +1,7 @@
 .jinya-get {
   padding: 10%;
   border-radius: 5px;
-  background: lighten($primary, 65%);
+  background: #f6f5f6;
   display: flex;
   flex-flow: row wrap;
 }
@@ -15,6 +15,11 @@
   margin-top: 1rem;
 }
 
-.jinya-get__mail-us{
-  color: $primary;
+.jinya-get__mail-us {
+  color: var(--primary-color);
+}
+
+.jinya-section--get {
+  padding: 2rem 10% 3rem;
+  background: var(--primary-color);
 }

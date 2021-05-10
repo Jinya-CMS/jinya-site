@@ -1,0 +1,8 @@
+.jinya-section {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  background: var(--white);
+}

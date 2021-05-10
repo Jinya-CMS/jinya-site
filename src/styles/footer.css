@@ -1,18 +1,18 @@
 .jinya-footer {
   width: 100%;
-  background: lighten($primary, 40%);
-  color: $white;
+  background: var(--footer-background-color);
+  color: var(--white);
   display: flex;
   padding: 2rem 1rem;
   margin-top: auto;
 }
 
 .jinya-footer__heart {
-  color: #dc3545;
+  color: var(--red);
 }
 
 .jinya-footer__link {
-  color: $white;
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -21,7 +21,7 @@
   margin-right: 10%;
 }
 
-.jinya-footer__claim{
+.jinya-footer__claim {
   margin-left: 10%;
   margin-right: auto;
 }

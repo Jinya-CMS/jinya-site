@@ -1,0 +1,28 @@
+:root {
+  --red: #dc3545;
+  --primary-color: #504a56;
+  --secondary-color: #966554;
+  --white: #ffffff;
+  --black: #222222;
+  --sites-background-color: #f7f3f2;
+  --about-background-color: #f6f5f6;
+  --footer-background-color: #b6b1bb;
+
+  font-size: 16px;
+  font-family: objektiv-mk1, sans-serif;
+  color: var(--black);
+}
+
+@media screen and (min-width: 2560px) {
+  :root {
+    font-size: 20px;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%
+}
