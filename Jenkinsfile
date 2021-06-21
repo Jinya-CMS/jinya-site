@@ -23,16 +23,18 @@ spec:
     - mountPath: /var/run/docker.sock
       name: docker-sock
 '''
-            defaultContainer 'node'
+            defaultContainer 'docker'
         }
     }
     stages {
         stage('Push') {
             steps {
                 container('docker') {
-                    sh "docker build -t registry-hosted.imanuel.dev/jinya/jinya-site:$BUILD_NUMBER ."
-                    withDockerRegistry(credentialsId: 'nexus.imanuel.dev', url: 'https://registry-hosted.imanuel.dev') {
-                        sh "docker push registry-hosted.imanuel.dev/jinya/jinya-site:$BUILD_NUMBER"
+                    sh "docker build -t quay.imanuel.dev/jinya/jinya-site:$BUILD_NUMBER ."
+                    sh "docker tag quay.imanuel.dev/jinya/jinya-site:$BUILD_NUMBER quay.imanuel.dev/jinya/jinya-site:latest"
+                    withDockerRegistry(credentialsId: 'quay.imanuel.dev', url: 'https://quay.imanuel.dev') {
+                        sh "docker push quay.imanuel.dev/jinya/jinya-site:$BUILD_NUMBER"
+                        sh "docker push quay.imanuel.dev/jinya/jinya-site:latest"
                     }
                 }
             }
