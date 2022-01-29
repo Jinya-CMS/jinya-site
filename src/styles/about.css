@@ -5,13 +5,15 @@
 
 .jinya-blocks {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding-top: 2rem;
   flex-flow: row wrap;
+  gap: 1rem;
 }
 
 .jinya-blocks__block {
-  flex: 0 0 33%;
+  flex: 1 1 calc(33% - 1rem);
+  min-width: calc(33% - 1rem);
 }
 
 @media screen and (max-width: 1023px) {
