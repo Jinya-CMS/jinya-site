@@ -1,0 +1,12 @@
+:root {
+  --white: #fff;
+  --black: #333;
+  --primary-color: #514b57;
+  --red: #dc3545;
+
+  --text-color: var(--black);
+  --menu-item-color: var(--black);
+  --menu-item-color-inverse: var(--white);
+  --article-background: #f7f3f2;
+  --article-shadow-color: rgba(81, 75, 87, 0.2);
+}

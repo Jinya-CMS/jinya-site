@@ -1,0 +1,72 @@
+<script>
+  export let inverse = false;
+</script>
+
+<nav class='jinya-nav' class:jinya-nav--inverse={inverse}>
+  <div class='jinya-nav__left'>
+    <a href='' class='jinya-nav__brand' class:jinya-nav__brand--inverse={inverse}>Jinya CMS</a>
+  </div>
+  <div class='jinya-nav__right'>
+    <a href='' class='jinya-nav__link' class:jinya-nav__link--inverse={inverse}>About</a>
+    <a href='' class='jinya-nav__link' class:jinya-nav__link--inverse={inverse}>Stories</a>
+    <a href='' class='jinya-nav__link' class:jinya-nav__link--inverse={inverse}>Get Jinya</a>
+    <a href='' class='jinya-nav__link' class:jinya-nav__link--inverse={inverse}>Contact</a>
+    <a href='https://github.com/Jinya-CMS/jinya-cms' class='jinya-nav__link' class:jinya-nav__link--inverse={inverse}>
+      <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32.58 31.77' width='32px'>
+        <path class='jinya-nav__link--github' class:jinya-nav__link--inverse={inverse}
+              d='M128.45,112.16a16.29,16.29,0,0,0-5.15,31.75c.81.15,1.11-.35,1.11-.79s0-1.41,0-2.77c-4.53,1-5.49-2.18-5.49-2.18a4.3,4.3,0,0,0-1.81-2.38c-1.48-1,.11-1,.11-1a3.41,3.41,0,0,1,2.5,1.68,3.46,3.46,0,0,0,4.74,1.35,3.54,3.54,0,0,1,1-2.18c-3.61-.41-7.42-1.81-7.42-8.05a6.3,6.3,0,0,1,1.68-4.37,5.82,5.82,0,0,1,.16-4.31s1.37-.44,4.48,1.67a15.41,15.41,0,0,1,8.16,0c3.11-2.11,4.47-1.67,4.47-1.67a5.82,5.82,0,0,1,.16,4.31,6.26,6.26,0,0,1,1.68,4.37c0,6.26-3.81,7.64-7.44,8a3.91,3.91,0,0,1,1.11,3c0,2.17,0,3.93,0,4.46s.29.95,1.12.79a16.3,16.3,0,0,0-5.16-31.75Z'
+              transform='translate(-112.16 -112.16)' />
+      </svg>
+    </a>
+  </div>
+</nav>
+
+<style>
+  .jinya-nav {
+    width: 100vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 2.25rem 10vw;
+    box-sizing: border-box;
+    grid-column: 1/3;
+    grid-row: 1;
+  }
+
+  .jinya-nav--inverse {
+    background: none;
+  }
+
+  .jinya-nav__brand {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--menu-item-color);
+    font-weight: 700;
+  }
+
+  .jinya-nav__brand--inverse {
+    color: var(--menu-item-color-inverse);
+  }
+
+  .jinya-nav__right {
+    display: flex;
+    gap: 3rem;
+  }
+
+  .jinya-nav__link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--menu-item-color);
+  }
+
+  .jinya-nav__link--github {
+    fill: var(--menu-item-color);
+    stroke: var(--menu-item-color);
+  }
+
+  .jinya-nav__link--inverse {
+    color: var(--menu-item-color-inverse);
+    fill: var(--menu-item-color-inverse);
+    stroke: var(--menu-item-color-inverse);
+  }
+</style>

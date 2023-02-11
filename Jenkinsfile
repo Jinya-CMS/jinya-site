@@ -23,7 +23,7 @@ spec:
     - mountPath: /var/run/docker.sock
       name: docker-sock
 '''
-            defaultContainer 'docker'
+            defaultContainer 'node'
         }
     }
     stages {
