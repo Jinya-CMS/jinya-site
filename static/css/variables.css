@@ -5,7 +5,8 @@
   --red: #dc3545;
 
   --text-color: var(--black);
-  --menu-item-color: var(--black);
+  --text-color-white: var(--white);
+  --menu-item-color: var(--primary-color);
   --menu-item-color-inverse: var(--white);
   --article-background: #f7f3f2;
   --article-shadow-color: rgba(81, 75, 87, 0.2);

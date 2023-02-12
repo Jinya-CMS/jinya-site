@@ -8,7 +8,7 @@
   </div>
   <div class='jinya-nav__right'>
     <a href='/about' class='jinya-nav__link' class:jinya-nav__link--inverse={inverse}>About</a>
-    <a href='' class='jinya-nav__link' class:jinya-nav__link--inverse={inverse}>Stories</a>
+    <a href='/stories' class='jinya-nav__link' class:jinya-nav__link--inverse={inverse}>Stories</a>
     <a href='' class='jinya-nav__link' class:jinya-nav__link--inverse={inverse}>Get Jinya</a>
     <a href='' class='jinya-nav__link' class:jinya-nav__link--inverse={inverse}>Contact</a>
     <a href='https://github.com/Jinya-CMS/jinya-cms' class='jinya-nav__link' class:jinya-nav__link--inverse={inverse}>

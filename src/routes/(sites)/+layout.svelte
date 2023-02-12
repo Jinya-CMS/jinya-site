@@ -35,12 +35,14 @@
 
   .jinya-banner {
     background: var(--primary-color);
-    padding: 1rem 10vw;
+    padding: 1rem 15vw;
     margin-top: 5rem;
     margin-bottom: 2.5rem;
   }
 
   .jinya-banner__title {
     color: var(--white);
+    font-size: 3rem;
+    font-weight: 700;
   }
 </style>
