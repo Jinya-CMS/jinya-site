@@ -24,9 +24,9 @@ export const actions = {
         to: 'developers@jinya.de',
         subject: concern,
         text: `From: ${name}
-      Email: ${email}
-      Message:
-      ${message}`
+Email: ${email}
+Message:
+${message}`
       };
       await transport.sendMail(mail);
 
