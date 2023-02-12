@@ -20,6 +20,13 @@
     box-shadow: 0 0 4px 2px var(--article-shadow-color);
   }
 
+  @media screen and (max-width: 480px) {
+    .jinya-article {
+      padding: 1rem 0.5rem;
+      margin: 2rem 1.5rem;
+    }
+  }
+
   .jinya-article__title {
     margin: 0;
     padding: 0;
@@ -28,10 +35,22 @@
     color: var(--primary-color);
   }
 
+  @media screen and (max-width: 1280px) {
+    .jinya-article__title {
+      font-size: 2rem;
+    }
+  }
+
   .jinya-article__content {
     margin: 0;
     padding: 0;
     color: var(--text-color);
     font-size: 1.25rem;
+  }
+
+  @media screen and (max-width: 1280px) {
+    .jinya-article__content {
+      font-size: 1rem;
+    }
   }
 </style>

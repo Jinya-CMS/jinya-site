@@ -2,6 +2,9 @@
   import Footer from '../partials/footer.svelte';
   import Article from '../partials/article.svelte';
   import Navigation from '../partials/navigation.svelte';
+  import { titleStore } from './(sites)/stores.js';
+
+  titleStore.set('Jinya CMS');
 </script>
 
 <main>
@@ -59,6 +62,13 @@
     grid-template-columns: 1fr auto;
   }
 
+  @media screen and (max-width: 480px) {
+    .jinya-header--startpage {
+      display: flex;
+      flex-flow: row wrap;
+    }
+  }
+
   .jinya-header__image {
     grid-column: 1/3;
     grid-row: 1/3;
@@ -67,12 +77,24 @@
     z-index: -1;
   }
 
+  @media screen and (max-width: 1280px) {
+    .jinya-header__image {
+      display: none;
+    }
+  }
+
   .jinya-callout {
     padding-left: 15vw;
     padding-bottom: 3rem;
     color: var(--menu-item-color-inverse);
     grid-row: 2;
     grid-column: 1;
+  }
+
+  @media screen and (max-width: 1280px) {
+    .jinya-callout {
+      display: none;
+    }
   }
 
   .jinya-callout__title {
@@ -97,6 +119,12 @@
     grid-column: 2;
   }
 
+  @media screen and (max-width: 1280px) {
+    .jinya-header__copyright {
+      display: none;
+    }
+  }
+
   .jinya-who__row {
     display: flex;
     flex-flow: row;
@@ -104,8 +132,16 @@
     margin-top: 4rem;
   }
 
-  .jinya-who__row--inverse {
-    flex-direction: row-reverse;
+  @media screen and (min-width: 481px) {
+    .jinya-who__row--inverse {
+      flex-direction: row-reverse;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .jinya-who__row {
+      flex-flow: row wrap;
+    }
   }
 
   .jinya-who {
@@ -116,12 +152,24 @@
     padding-right: 4rem;
   }
 
+  @media screen and (max-width: 480px) {
+    .jinya-who {
+      padding: 0 0 2rem;
+    }
+  }
+
   .jinya-who__name {
     font-size: 2rem;
     margin: 0;
     padding: 0;
-    text-wrap: none;
     white-space: nowrap;
+  }
+
+  @media screen and (max-width: 480px) {
+    .jinya-who__name {
+      white-space: normal;
+      font-size: 1.5rem;
+    }
   }
 
   .jinya-who__job {
@@ -132,7 +180,20 @@
     white-space: nowrap;
   }
 
+  @media screen and (max-width: 480px) {
+    .jinya-who__job {
+      white-space: normal;
+      font-size: 1.15rem;
+    }
+  }
+
   .jinya-who__description {
-    font-size: 1rem;
+    font-size: 1.5rem;
+  }
+
+  @media screen and (max-width: 480px) {
+    .jinya-who__description {
+      font-size: 1rem;
+    }
   }
 </style>

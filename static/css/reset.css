@@ -13,3 +13,7 @@ html {
 a {
   color: var(--primary-color);
 }
+
+.jinya-noscroll {
+  overflow: hidden;
+}

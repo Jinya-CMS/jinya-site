@@ -74,6 +74,24 @@
     background: var(--error-color);
   }
 
+  @media screen and (max-width: 480px) {
+    .jinya-checkbox + label::before {
+      width: 1.25rem;
+      height: 1.25rem;
+      left: -1.75rem;
+    }
+
+    .jinya-checkbox:checked + label::after {
+      left: -1.35rem;
+      top: 0.15rem;
+      height: 0.75rem;
+      width: 0.25rem;
+      border-left: 2px solid var(--article-background);
+      border-top: 2px solid var(--article-background);
+      transform: rotate(220deg);
+    }
+  }
+
   .jinya-form {
     display: grid;
     grid-auto-rows: auto;
@@ -81,6 +99,12 @@
 
   .jinya-label {
     font-size: 1.5rem;
+  }
+
+  @media screen and (max-width: 480px) {
+    .jinya-label {
+      font-size: 1rem;
+    }
   }
 
   .jinya-input,
@@ -91,6 +115,14 @@
     font-size: 1.5rem;
     padding: 0.5rem 1rem;
     border: 2px solid var(--form-item-background);
+    box-sizing: border-box;
+  }
+
+  @media screen and (max-width: 480px) {
+    .jinya-input,
+    .jinya-textarea {
+      font-size: 1rem;
+    }
   }
 
   .jinya-input:invalid,
@@ -103,6 +135,7 @@
     border: 2px solid var(--primary-color);
     box-shadow: none;
     outline: none;
+    box-sizing: border-box;
   }
 
   .jinya-button {
@@ -125,6 +158,12 @@
     color: var(--primary-color);
   }
 
+  @media screen and (max-width: 480px) {
+    .jinya-button {
+      font-size: 1rem;
+    }
+  }
+
   .jinya-message--success {
     background: var(--success-background-color);
     color: var(--success-color);
@@ -133,6 +172,13 @@
     font-size: 1.5rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    box-sizing: border-box;
+  }
+
+  @media screen and (max-width: 480px) {
+    .jinya-message--success {
+      font-size: 1rem;
+    }
   }
 
   .jinya-message--failure {
@@ -143,6 +189,13 @@
     font-size: 1.5rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    box-sizing: border-box;
+  }
+
+  @media screen and (max-width: 480px) {
+    .jinya-message--failure {
+      font-size: 1rem;
+    }
   }
 
   .jinya-message--failure a {

@@ -18,6 +18,13 @@
     box-sizing: border-box;
   }
 
+  @media screen and (max-width: 1280px) {
+    .jinya-footer {
+      flex-flow: column;
+      gap: 0.5rem
+    }
+  }
+
   .jinya-heart {
     color: var(--red);
   }

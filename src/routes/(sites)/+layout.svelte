@@ -6,7 +6,6 @@
   let title;
 
   titleStore.subscribe(value => title = value);
-
 </script>
 
 <main class='jinya-main'>
@@ -40,9 +39,23 @@
     margin-bottom: 2.5rem;
   }
 
+  @media screen and (max-width: 480px) {
+    .jinya-banner {
+      display: none;
+    }
+  }
+
   .jinya-banner__title {
     color: var(--white);
     font-size: 3rem;
     font-weight: 700;
+  }
+
+  @media screen and (max-width: 480px) {
+    .jinya-banner__title {
+      font-size: 2rem;
+      padding: 0;
+      margin: 0;
+    }
   }
 </style>
