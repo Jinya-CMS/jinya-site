@@ -46,7 +46,7 @@
   }
 
   .jinya-banner__title {
-    color: var(--white);
+    color: var(--text-color-white);
     font-size: 3rem;
     font-weight: 700;
   }

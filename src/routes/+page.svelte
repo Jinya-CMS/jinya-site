@@ -74,7 +74,6 @@
     grid-row: 1/3;
     height: auto;
     width: 100vw;
-    z-index: -1;
   }
 
   @media screen and (max-width: 1280px) {

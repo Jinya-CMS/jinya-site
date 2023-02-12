@@ -3,8 +3,9 @@
   --black: #333;
   --primary-color: #514b57;
   --red: #dc3545;
-  --form-item-background: rgba(81, 75, 87, 0.125);
 
+  --form-item-background: rgba(81, 75, 87, 0.125);
+  --background-color: var(--white);
   --text-color: var(--black);
   --text-color-white: var(--white);
   --menu-item-color: var(--primary-color);
@@ -15,4 +16,14 @@
   --success-color: #146621;
   --error-background-color: rgba(220, 53, 69, 0.125);
   --error-color: #dc3545;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --article-background: #080c0d;
+    --background-color: #000;
+    --primary-color: #966554;
+    --text-color: var(--white);
+    --text-color-white: #000;
+  }
 }
