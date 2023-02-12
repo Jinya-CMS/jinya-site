@@ -1,7 +1,10 @@
 <footer class='jinya-footer'>
   <span class='jinya-footer__entry'>© Jinya Developers</span>
   <span class='jinya-footer__entry'>Made with <span class='jinya-heart'>♥</span> in Hildesheim</span>
-  <a class='jinya-footer__entry jinya-footer__entry--link' href=''>Imprint</a>
+  <div class='jinya-footer__links'>
+    <a class='jinya-footer__entry jinya-footer__entry--link' href='/data-protection'>Data Protection</a>
+    <a class='jinya-footer__entry jinya-footer__entry--link' href='/imprint'>Imprint</a>
+  </div>
 </footer>
 
 <style>
@@ -25,5 +28,10 @@
 
   .jinya-footer__entry--link {
     text-decoration: none;
+  }
+
+  .jinya-footer__links {
+    display: flex;
+    gap: 2rem;
   }
 </style>
