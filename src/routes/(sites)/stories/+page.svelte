@@ -104,6 +104,7 @@
     transition: 0.3s color, 0.3s background;
     box-sizing: border-box;
     border: 2px solid var(--primary-color);
+    cursor: pointer;
   }
 
   .jinya-story__visit:hover {

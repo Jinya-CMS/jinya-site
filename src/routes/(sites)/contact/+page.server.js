@@ -21,7 +21,7 @@ export const actions = {
       });
       const mail = {
         from: 'noreply@jinya.de',
-        to: 'noreply@jinya.de',
+        to: 'developers@jinya.de',
         subject: concern,
         text: `From: ${name}
       Email: ${email}

@@ -117,6 +117,7 @@
     border: 2px solid var(--primary-color);
     align-self: end;
     justify-self: end;
+    cursor: pointer;
   }
 
   .jinya-button:hover {
