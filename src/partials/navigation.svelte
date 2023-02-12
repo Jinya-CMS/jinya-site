@@ -4,10 +4,10 @@
 
 <nav class='jinya-nav' class:jinya-nav--inverse={inverse}>
   <div class='jinya-nav__left'>
-    <a href='' class='jinya-nav__brand' class:jinya-nav__brand--inverse={inverse}>Jinya CMS</a>
+    <a href='/' class='jinya-nav__brand' class:jinya-nav__brand--inverse={inverse}>Jinya CMS</a>
   </div>
   <div class='jinya-nav__right'>
-    <a href='' class='jinya-nav__link' class:jinya-nav__link--inverse={inverse}>About</a>
+    <a href='/about' class='jinya-nav__link' class:jinya-nav__link--inverse={inverse}>About</a>
     <a href='' class='jinya-nav__link' class:jinya-nav__link--inverse={inverse}>Stories</a>
     <a href='' class='jinya-nav__link' class:jinya-nav__link--inverse={inverse}>Get Jinya</a>
     <a href='' class='jinya-nav__link' class:jinya-nav__link--inverse={inverse}>Contact</a>
@@ -27,14 +27,16 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    padding: 2.25rem 10vw;
+    padding: 2.25rem 15vw;
     box-sizing: border-box;
     grid-column: 1/3;
     grid-row: 1;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
   }
 
   .jinya-nav--inverse {
     background: none;
+    box-shadow: none;
   }
 
   .jinya-nav__brand {
@@ -46,6 +48,7 @@
 
   .jinya-nav__brand--inverse {
     color: var(--menu-item-color-inverse);
+    box-shadow: none;
   }
 
   .jinya-nav__right {

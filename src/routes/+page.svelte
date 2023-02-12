@@ -15,12 +15,10 @@
     <span class='jinya-header__copyright'>Picture: Sting rays, by Jenny-Jinya</span>
   </header>
   <Article title='Why choose Jinya'>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-    magna aliqua. Sit amet justo donec enim diam vulputate. Faucibus pulvinar elementum integer enim neque volutpat.
-    Lorem ipsum dolor sit amet consectetur. Dignissim enim sit amet venenatis. Massa tincidunt nunc pulvinar sapien
-    et. Nunc vel risus commodo viverra maecenas accumsan lacus. Bibendum at varius vel pharetra vel turpis nunc eget.
-    Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non. Tristique senectus et netus et malesuada
-    fames ac turpis egestas. At varius vel pharetra vel turpis nunc eget lorem.
+    The Jinya CMS is made by artists for artists. Every part of Jinya was designed with ease of use in mind. During
+    development everything evolves around displaying digital art and putting your artworks in the center of attention
+    for your fans. There are countless other CMS out there, but most of them concentrate on text based content. Jinya
+    focuses on images and artworks.
   </Article>
   <Article title="Who's behind it">
     <div class='jinya-who__row'>
@@ -32,7 +30,7 @@
         <a class='jinya-who__link' href='https://imanuel.dev'>Imanuel Ulbricht</a> is a developer and designer based in
         Hildesheim, Germany. He develops websites, desktop applications and mobile applications. Together with Jenny he
         started the development of the Jinya CMS back in October 2017. He has developed several open source projects
-        since then and is currently employed at Lineas GmbH in Wolfsburg, Germany.
+        since then and is currently employed at Lineas Informationstechnik GmbH in Wolfsburg, Germany.
       </div>
     </div>
     <div class='jinya-who__row jinya-who__row--inverse'>
@@ -71,7 +69,7 @@
   }
 
   .jinya-callout {
-    padding-left: 10vw;
+    padding-left: 15vw;
     padding-bottom: 3rem;
     color: var(--menu-item-color-inverse);
     grid-row: 2;
@@ -91,7 +89,7 @@
 
   .jinya-header__copyright {
     color: var(--menu-item-color-inverse);
-    padding-right: 10vw;
+    padding-right: 15vw;
     align-self: end;
     justify-self: end;
     padding-bottom: 2rem;

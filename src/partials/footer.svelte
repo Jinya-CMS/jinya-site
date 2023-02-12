@@ -9,7 +9,7 @@
     background: var(--primary-color);
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 10vw;
+    padding: 1.5rem 15vw;
     bottom: 0;
     width: 100vw;
     box-sizing: border-box;
