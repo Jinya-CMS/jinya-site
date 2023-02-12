@@ -3,6 +3,7 @@
   --black: #333;
   --primary-color: #514b57;
   --red: #dc3545;
+  --form-item-background: rgba(81, 75, 87, 0.125);
 
   --text-color: var(--black);
   --text-color-white: var(--white);
@@ -10,4 +11,8 @@
   --menu-item-color-inverse: var(--white);
   --article-background: #f7f3f2;
   --article-shadow-color: rgba(81, 75, 87, 0.2);
+  --success-background-color: rgba(20, 102, 33, 0.38);
+  --success-color: #146621;
+  --error-background-color: rgba(220, 53, 69, 0.38);
+  --error-color: #dc3545;
 }

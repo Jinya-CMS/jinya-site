@@ -91,11 +91,11 @@
   }
 
   .jinya-story__content {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .jinya-story__visit {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     text-decoration: none;
     color: var(--text-color-white);
     background: var(--primary-color);

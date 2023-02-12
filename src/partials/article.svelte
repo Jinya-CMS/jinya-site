@@ -32,5 +32,6 @@
     margin: 0;
     padding: 0;
     color: var(--text-color);
+    font-size: 1.25rem;
   }
 </style>
