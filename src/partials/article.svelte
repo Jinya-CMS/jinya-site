@@ -1,6 +1,5 @@
 <script>
   export let title;
-  export let content;
 </script>
 
 <div class='jinya-article'>
