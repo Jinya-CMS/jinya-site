@@ -1,19 +1,19 @@
 <script>
-  import { titleStore } from '../stores.js';
-  import Article from '../../../partials/article.svelte';
+  import { titleStore } from "../stores.js";
+  import Article from "../../../partials/article.svelte";
 
-  titleStore.set('Imprint');
+  titleStore.set("Imprint");
 </script>
 
-<Article title='Angaben gemäß § 5 TMG'>
-  <address class='jinya-address'>
+<Article title="Angaben gemäß § 5 TMG">
+  <address class="jinya-address">
     Imanuel Ulbricht<br>
     Dingworthstr. 15<br>
     31137 Hildesheim
   </address>
-  <h2 class='jinya-header'>Kontakt</h2>
-  <p>E-Mail: <a href='mailto:imanuel.ulbricht@jinya.de'>imanuel.ulbricht@jinya.de</a></p>
-  <h2 class='jinya-header'>Haftung für Inhalte</h2>
+  <h2 class="jinya-header">Kontakt</h2>
+  <p>E-Mail: <a href="mailto:imanuel.ulbricht@jinya.de">imanuel.ulbricht@jinya.de</a></p>
+  <h2 class="jinya-header">Haftung für Inhalte</h2>
   <p>
     Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen
     Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte
@@ -26,7 +26,7 @@
     Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte
     umgehend entfernen.
   </p>
-  <h2 class='jinya-header'>Urheberrecht</h2>
+  <h2 class="jinya-header">Urheberrecht</h2>
   <p>
     Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen
     Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des

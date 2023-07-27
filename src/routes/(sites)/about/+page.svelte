@@ -1,11 +1,11 @@
 <script>
-  import { titleStore } from '../stores.js';
-  import Article from '../../../partials/article.svelte';
+  import { titleStore } from "../stores.js";
+  import Article from "../../../partials/article.svelte";
 
-  titleStore.set('About');
+  titleStore.set("About");
 </script>
 
-<Article title='The reason behind it'>
+<Article title="The reason behind it">
   <p>
     Back in October 2017, Jenny-Jinya approached Imanuel Ulbricht for a new portfolio website. That was the moment the
     idea behind the Jinya CMS was born. We wanted to build a new way to manage a digital art portfolio. After looking
@@ -24,11 +24,11 @@
   </p>
 </Article>
 
-<Article title='The tech behind it'>
+<Article title="The tech behind it">
   When developing Jinya one of the main goals was to let it run on nearly every server out there. This was achieved by
   basing it on the popular programming language PHP. Installing it and running it is really simple, you only need a
   server running PHP 8.1 or Docker. The backend is written in PHP and JavaScript and runs in any modern browser. The
   part that gets served to your clients and fans is based around a theming system. Jinya is open source, so everyone can
   check the code and write their own themes. There is also a guide available on how to write themes
-  <a href='https://cms.jinya.dev/guide/theme/index.html'>here</a>.
+  <a href="https://cms.jinya.dev/guide/theme/index.html">here</a>.
 </Article>

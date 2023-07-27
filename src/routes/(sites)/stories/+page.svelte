@@ -1,54 +1,54 @@
 <script>
-  import { titleStore } from '../stores.js';
+  import { titleStore } from "../stores.js";
 
-  titleStore.set('Stories');
+  titleStore.set("Stories");
 </script>
 
-<div class='jinya-story'>
-  <div class='jinya-story__info'>
-    <h2 class='jinya-story__who'>Jenny-Jinya</h2>
-    <p class='jinya-story__content'>
+<div class="jinya-story">
+  <div class="jinya-story__info">
+    <h2 class="jinya-story__who">Jenny-Jinya</h2>
+    <p class="jinya-story__content">
       Jenny-Jinya is a freelance illustrator based in Germany, she studies Digital Media and had a number of exhibitions
       since she is 16, her new portfolio got an incredible amount of positive feedback.
     </p>
-    <a class='jinya-story__visit' href='https://jenny-jinya.com'>Visit jenny-jinya.com</a>
+    <a class="jinya-story__visit" href="https://jenny-jinya.com">Visit jenny-jinya.com</a>
   </div>
-  <img class='jinya-story__preview' src='/jenny-jinya.com.png' alt='Startpage of jenny-jinya.com'>
+  <img alt="Startpage of jenny-jinya.com" class="jinya-story__preview" src="/jenny-jinya.com.png">
 </div>
-<div class='jinya-story jinya-story--inverse'>
-  <div class='jinya-story__info'>
-    <h2 class='jinya-story__who'>Jenny-Jinya Comics</h2>
-    <p class='jinya-story__content'>
+<div class="jinya-story jinya-story--inverse">
+  <div class="jinya-story__info">
+    <h2 class="jinya-story__who">Jenny-Jinya Comics</h2>
+    <p class="jinya-story__content">
       Jenny Jinya comics is the comic website of the artist Jenny-Jinya. She is the creator of the famous Loving Reaper
       comic series. She trusts Jinya to give people the perfect view on her comics.
     </p>
-    <a class='jinya-story__visit' href='https://lovingreaper.com'>Visit lovingreaper.com</a>
+    <a class="jinya-story__visit" href="https://lovingreaper.com">Visit lovingreaper.com</a>
   </div>
-  <img class='jinya-story__preview jinya-story__preview--inverse' src='/lovingreaper.com.jpg'
-       alt='Startpage of lovingreaper.com'>
+  <img alt="Startpage of lovingreaper.com" class="jinya-story__preview jinya-story__preview--inverse"
+       src="/lovingreaper.com.jpg">
 </div>
-<div class='jinya-story'>
-  <div class='jinya-story__info'>
-    <h2 class='jinya-story__who'>Imanuel Ulbricht Design</h2>
-    <p class='jinya-story__content'>
+<div class="jinya-story">
+  <div class="jinya-story__info">
+    <h2 class="jinya-story__who">Imanuel Ulbricht Design</h2>
+    <p class="jinya-story__content">
       Imanuel Ulbricht is a professional web and app developer. The portfolio was created with the default theme of
       Jinya and is the perfect showcase.
     </p>
-    <a class='jinya-story__visit' href='https://design.imanuel.dev/'>Visit design.imanuel.dev</a>
+    <a class="jinya-story__visit" href="https://design.imanuel.dev/">Visit design.imanuel.dev</a>
   </div>
-  <img class='jinya-story__preview' src='/design.imanuel.dev.png' alt='Startpage of design.imanuel.dev'>
+  <img alt="Startpage of design.imanuel.dev" class="jinya-story__preview" src="/design.imanuel.dev.png">
 </div>
-<div class='jinya-story jinya-story--inverse'>
-  <div class='jinya-story__info'>
-    <h2 class='jinya-story__who'>Creastina</h2>
-    <p class='jinya-story__content'>
+<div class="jinya-story jinya-story--inverse">
+  <div class="jinya-story__info">
+    <h2 class="jinya-story__who">Creastina</h2>
+    <p class="jinya-story__content">
       Creastina is the private crafting blog of Christina. Together with Christina we developed a blog platform that
       perfectly integrates into the Jinya CMS.
     </p>
-    <a class='jinya-story__visit' href='https://creastina.art'>Visit creastina.art</a>
+    <a class="jinya-story__visit" href="https://creastina.art">Visit creastina.art</a>
   </div>
-  <img class='jinya-story__preview jinya-story__preview--inverse' src='/creastina.art.png'
-       alt='Startpage of creastina.art'>
+  <img alt="Startpage of creastina.art" class="jinya-story__preview jinya-story__preview--inverse"
+       src="/creastina.art.png">
 </div>
 
 <style>

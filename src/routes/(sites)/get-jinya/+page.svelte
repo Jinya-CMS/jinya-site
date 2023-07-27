@@ -1,22 +1,22 @@
 <script>
-  import { titleStore } from '../stores.js';
-  import Article from '../../../partials/article.svelte';
+  import { titleStore } from "../stores.js";
+  import Article from "../../../partials/article.svelte";
 
-  titleStore.set('Get Jinya');
+  titleStore.set("Get Jinya");
 </script>
 
-<Article title='Install Jinya on your server'>
+<Article title="Install Jinya on your server">
   Installing Jinya is very easy. You only need to grab the most recent build from <a
-  href='https://releases.jinya.de/cms'>here</a>, extract it in a directory on your server and then simple point your
+  href="https://releases.jinya.de/cms">here</a>, extract it in a directory on your server and then simple point your
   domain to the created directory. You also need to make sure to create a MySQL database you can use. If you have issues
   installing Jinya feel free to contact us via the contact form or just send us an email to
-  <a href='mailto:developers@jinya.de'>developers@jinya.de</a>.
+  <a href="mailto:developers@jinya.de">developers@jinya.de</a>.
 </Article>
-<Article title='Install Jinya using Docker'>
-  Installing Jinya using Docker is documented <a href='https://hub.docker.com/r/jinyacms/jinya-cms'>here</a>. You can
+<Article title="Install Jinya using Docker">
+  Installing Jinya using Docker is documented <a href="https://hub.docker.com/r/jinyacms/jinya-cms">here</a>. You can
   also use the following docker-compose.yaml to run your
   installation.
-  <pre class='jinya-install--docker'>
+  <pre class="jinya-install--docker">
 version: '3.7'
 
 services:
@@ -66,5 +66,5 @@ services:
 </style>
 
 <svelte:head>
-  <link rel='stylesheet' type='text/css' href='https://fonts.jinya.de/css2?family=Source Code Pro'>
+  <link href="https://fonts.jinya.de/css2?family=Source Code Pro" rel="stylesheet" type="text/css">
 </svelte:head>

@@ -1,18 +1,18 @@
 <script>
-  import Article from '../partials/article.svelte';
-  import Navigation from '../partials/navigation.svelte';
-  import Footer from '../partials/footer.svelte';
+  import Article from "../partials/article.svelte";
+  import Navigation from "../partials/navigation.svelte";
+  import Footer from "../partials/footer.svelte";
 </script>
 
-<main class='jinya-main'>
+<main class="jinya-main">
   <header>
     <Navigation />
-    <div class='jinya-banner'>
-      <h1 class='jinya-banner__title'>404 – Page not found</h1>
+    <div class="jinya-banner">
+      <h1 class="jinya-banner__title">404 – Page not found</h1>
     </div>
   </header>
   <div>
-    <Article title='Page not found'>
+    <Article title="Page not found">
       The requested page doesn't exist.
     </Article>
   </div>

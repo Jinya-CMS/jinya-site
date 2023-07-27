@@ -1,36 +1,36 @@
 <script>
-  import { titleStore } from '../stores.js';
-  import Article from '../../../partials/article.svelte';
+  import { titleStore } from "../stores.js";
+  import Article from "../../../partials/article.svelte";
 
-  titleStore.set('Contact us');
+  titleStore.set("Contact us");
 
   export let form;
 </script>
 
-<Article title='Contact form'>
+<Article title="Contact form">
   {#if form?.success}
-    <div class='jinya-message--success'>
+    <div class="jinya-message--success">
       Your message was sent, we will send you a reply as fast as we can
     </div>
   {:else if form?.success === false}
-    <div class='jinya-message--failure'>
-      Your message could not be sent, please send your concern to <a href='mailto:developers@jinya.de'>developers@jinya.de</a>
+    <div class="jinya-message--failure">
+      Your message could not be sent, please send your concern to <a href="mailto:developers@jinya.de">developers@jinya.de</a>
     </div>
   {/if}
-  <form class='jinya-form' method='post'>
-    <label class='jinya-label' for='name'>Your name <small>(required)</small></label>
-    <input name='name' class='jinya-input' type='text' id='name' required>
-    <label class='jinya-label' for='email'>Your email <small>(required)</small></label>
-    <input name='email' class='jinya-input' type='email' id='email' required>
-    <label class='jinya-label' for='concern'>Your concern <small>(required)</small></label>
-    <input name='concern' class='jinya-input' type='text' id='concern' required>
-    <label class='jinya-label' for='message'>Your message <small>(required)</small></label>
-    <textarea name='message' class='jinya-textarea' rows='15' id='message' required></textarea>
+  <form class="jinya-form" method="post">
+    <label class="jinya-label" for="name">Your name <small>(required)</small></label>
+    <input class="jinya-input" id="name" name="name" required type="text">
+    <label class="jinya-label" for="email">Your email <small>(required)</small></label>
+    <input class="jinya-input" id="email" name="email" required type="email">
+    <label class="jinya-label" for="concern">Your concern <small>(required)</small></label>
+    <input class="jinya-input" id="concern" name="concern" required type="text">
+    <label class="jinya-label" for="message">Your message <small>(required)</small></label>
+    <textarea class="jinya-textarea" id="message" name="message" required rows="15"></textarea>
     <div>
-      <input class='jinya-checkbox' type='checkbox' required id='accept'>
-      <label for='accept'>I have read the <a href='/data-protection' target='_blank'>data protection page</a> <small>(required)</small></label>
+      <input class="jinya-checkbox" id="accept" required type="checkbox">
+      <label for="accept">I have read the <a href="/data-protection" target="_blank">data protection page</a> <small>(required)</small></label>
     </div>
-    <button type='submit' class='jinya-button'>Send your message</button>
+    <button class="jinya-button" type="submit">Send your message</button>
   </form>
 </Article>
 

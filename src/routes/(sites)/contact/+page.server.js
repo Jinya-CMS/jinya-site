@@ -1,6 +1,6 @@
-import * as nodemailer from "nodemailer";
+import * as nodemailer from 'nodemailer';
 
-/** @type {import('./$types').Actions} */
+/** @type {import("./$types").Actions} */
 export const actions = {
 	default: async ({ request }) => {
 		try {

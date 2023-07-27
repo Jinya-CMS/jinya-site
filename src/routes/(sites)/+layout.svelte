@@ -1,18 +1,18 @@
 <script>
-  import Navigation from '../../partials/navigation.svelte';
-  import Footer from '../../partials/footer.svelte';
-  import { titleStore } from './stores.js';
+  import Navigation from "../../partials/navigation.svelte";
+  import Footer from "../../partials/footer.svelte";
+  import { titleStore } from "./stores.js";
 
   let title;
 
   titleStore.subscribe(value => title = value);
 </script>
 
-<main class='jinya-main'>
+<main class="jinya-main">
   <header>
     <Navigation />
-    <div class='jinya-banner'>
-      <h1 class='jinya-banner__title'>{title}</h1>
+    <div class="jinya-banner">
+      <h1 class="jinya-banner__title">{title}</h1>
     </div>
   </header>
   <div>

@@ -1,5 +1,5 @@
 <script>
-  import { titleStore } from '../routes/(sites)/stores.js';
+  import { titleStore } from "../routes/(sites)/stores.js";
 
   export let inverse = false;
   let navToggled = false;
@@ -15,36 +15,37 @@
   }
 </script>
 
-<nav class='jinya-nav jinya-nav--desktop' class:jinya-nav--inverse={inverse}>
-  <div class='jinya-nav__left'>
-    <a href='/' class='jinya-nav__brand' class:jinya-nav__brand--inverse={inverse}>Jinya CMS</a>
+<nav class="jinya-nav jinya-nav--desktop" class:jinya-nav--inverse={inverse}>
+  <div class="jinya-nav__left">
+    <a class="jinya-nav__brand" class:jinya-nav__brand--inverse={inverse} href="/">Jinya CMS</a>
   </div>
-  <div class='jinya-nav__right'>
-    <a href='/about' class='jinya-nav__link' class:jinya-nav__link--inverse={inverse}>About</a>
-    <a href='/stories' class='jinya-nav__link' class:jinya-nav__link--inverse={inverse}>Stories</a>
-    <a href='/get-jinya' class='jinya-nav__link' class:jinya-nav__link--inverse={inverse}>Get Jinya</a>
-    <a href='/contact' class='jinya-nav__link' class:jinya-nav__link--inverse={inverse}>Contact</a>
-    <a target='_blank' href='https://github.com/Jinya-CMS/jinya-cms' class='jinya-nav__link'
-       class:jinya-nav__link--inverse={inverse}>
-      <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32.58 31.77' width='32px'>
-        <path class='jinya-nav__link--github' class:jinya-nav__link--inverse={inverse}
-              d='M128.45,112.16a16.29,16.29,0,0,0-5.15,31.75c.81.15,1.11-.35,1.11-.79s0-1.41,0-2.77c-4.53,1-5.49-2.18-5.49-2.18a4.3,4.3,0,0,0-1.81-2.38c-1.48-1,.11-1,.11-1a3.41,3.41,0,0,1,2.5,1.68,3.46,3.46,0,0,0,4.74,1.35,3.54,3.54,0,0,1,1-2.18c-3.61-.41-7.42-1.81-7.42-8.05a6.3,6.3,0,0,1,1.68-4.37,5.82,5.82,0,0,1,.16-4.31s1.37-.44,4.48,1.67a15.41,15.41,0,0,1,8.16,0c3.11-2.11,4.47-1.67,4.47-1.67a5.82,5.82,0,0,1,.16,4.31,6.26,6.26,0,0,1,1.68,4.37c0,6.26-3.81,7.64-7.44,8a3.91,3.91,0,0,1,1.11,3c0,2.17,0,3.93,0,4.46s.29.95,1.12.79a16.3,16.3,0,0,0-5.16-31.75Z'
-              transform='translate(-112.16 -112.16)' />
+  <div class="jinya-nav__right">
+    <a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href="/about">About</a>
+    <a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href="/stories">Stories</a>
+    <a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href="/get-jinya">Get Jinya</a>
+    <a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href="/contact">Contact</a>
+    <a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href="https://github.com/Jinya-CMS/jinya-cms"
+       target="_blank">
+      <svg viewBox="0 0 32.58 31.77" width="32px" xmlns="http://www.w3.org/2000/svg">
+        <path class="jinya-nav__link--github" class:jinya-nav__link--inverse={inverse}
+              d="M128.45,112.16a16.29,16.29,0,0,0-5.15,31.75c.81.15,1.11-.35,1.11-.79s0-1.41,0-2.77c-4.53,1-5.49-2.18-5.49-2.18a4.3,4.3,0,0,0-1.81-2.38c-1.48-1,.11-1,.11-1a3.41,3.41,0,0,1,2.5,1.68,3.46,3.46,0,0,0,4.74,1.35,3.54,3.54,0,0,1,1-2.18c-3.61-.41-7.42-1.81-7.42-8.05a6.3,6.3,0,0,1,1.68-4.37,5.82,5.82,0,0,1,.16-4.31s1.37-.44,4.48,1.67a15.41,15.41,0,0,1,8.16,0c3.11-2.11,4.47-1.67,4.47-1.67a5.82,5.82,0,0,1,.16,4.31,6.26,6.26,0,0,1,1.68,4.37c0,6.26-3.81,7.64-7.44,8a3.91,3.91,0,0,1,1.11,3c0,2.17,0,3.93,0,4.46s.29.95,1.12.79a16.3,16.3,0,0,0-5.16-31.75Z"
+              transform="translate(-112.16 -112.16)" />
       </svg>
     </a>
   </div>
 </nav>
-<div class='jinya-nav__bar--mobile'>
-  <span class='jinya-nav__brand jinya-nav__brand--inverse'>{mobileTitle}</span>
-  <button class='jinya-hamburger' on:click={toggleNavigation}></button>
+<div class="jinya-nav__bar--mobile">
+  <span class="jinya-nav__brand jinya-nav__brand--inverse">{mobileTitle}</span>
+  <button class="jinya-hamburger" on:click={toggleNavigation}></button>
 </div>
-<nav class='jinya-nav--mobile' class:jinya-nav--mobile-open={navToggled}>
-  <a on:click={hideNav} href='/' class='jinya-nav__link jinya-nav__link--inverse'>Startpage</a>
-  <a on:click={hideNav} href='/about' class='jinya-nav__link jinya-nav__link--inverse'>About</a>
-  <a on:click={hideNav} href='/stories' class='jinya-nav__link jinya-nav__link--inverse'>Stories</a>
-  <a on:click={hideNav} href='/get-jinya' class='jinya-nav__link jinya-nav__link--inverse'>Get Jinya</a>
-  <a on:click={hideNav} href='/contact' class='jinya-nav__link jinya-nav__link--inverse'>Contact</a>
-  <a on:click={hideNav} target='_blank' href='https://github.com/Jinya-CMS/jinya-cms' class='jinya-nav__link jinya-nav__link--inverse'>Github </a>
+<nav class="jinya-nav--mobile" class:jinya-nav--mobile-open={navToggled}>
+  <a class="jinya-nav__link jinya-nav__link--inverse" href="/" on:click={hideNav}>Startpage</a>
+  <a class="jinya-nav__link jinya-nav__link--inverse" href="/about" on:click={hideNav}>About</a>
+  <a class="jinya-nav__link jinya-nav__link--inverse" href="/stories" on:click={hideNav}>Stories</a>
+  <a class="jinya-nav__link jinya-nav__link--inverse" href="/get-jinya" on:click={hideNav}>Get Jinya</a>
+  <a class="jinya-nav__link jinya-nav__link--inverse" href="/contact" on:click={hideNav}>Contact</a>
+  <a class="jinya-nav__link jinya-nav__link--inverse" href="https://github.com/Jinya-CMS/jinya-cms" on:click={hideNav}
+     target="_blank">Github </a>
 </nav>
 
 <style>

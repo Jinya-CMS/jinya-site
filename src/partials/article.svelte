@@ -2,9 +2,9 @@
   export let title;
 </script>
 
-<div class='jinya-article'>
-  <h2 class='jinya-article__title'>{title}</h2>
-  <p class='jinya-article__content'>
+<div class="jinya-article">
+  <h2 class="jinya-article__title">{title}</h2>
+  <p class="jinya-article__content">
     <slot></slot>
   </p>
 </div>
