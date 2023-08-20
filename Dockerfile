@@ -1,4 +1,4 @@
-FROM quay.imanuel.dev/dockerhub/library---node:latest
+FROM harbor.ulbricht.casa/proxy/library/node:latest
 
 WORKDIR /app
 COPY . .
