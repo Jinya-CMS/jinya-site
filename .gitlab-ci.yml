@@ -11,10 +11,8 @@ test:
     - npm run build
 
 docker-build:
-  image: harbor.ulbricht.casa/proxy/library/docker:stable
+  image: harbor.ulbricht.casa/proxy/library/docker:dind
   stage: build
-  services:
-    - docker:dind
   before_script:
     - docker login -u "$HARBOR_USER" -p "$HARBOR_PASSWORD" harbor.ulbricht.casa
   script:
