@@ -15,7 +15,7 @@ docker-build:
   image:
     name: gcr.io/kaniko-project/executor:debug
     pull_policy: always
-    entrypoint: [""]
+    entrypoint: ['']
   before_script:
     - echo $KANIKO_HARBOR_ONLY > /kaniko/.docker/config.json
   script:
