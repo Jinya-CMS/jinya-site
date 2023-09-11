@@ -9,13 +9,13 @@
 
 <main>
   <header class="jinya-header--startpage">
-    <img alt="Header image" aria-hidden="true" class="jinya-header__image" src="/startpage-stingrays.jpg">
+    <img alt="Header image" aria-hidden="true" class="jinya-header__image" src="/startpage.webp">
     <Navigation inverse="true" />
     <div class="jinya-callout">
       <h1 class="jinya-callout__title">Jinya CMS</h1>
       <p class="jinya-callout__claim">The simplest way to manage your portfolio</p>
     </div>
-    <span class="jinya-header__copyright">Picture: Sting rays, by Jenny-Jinya</span>
+    <span class="jinya-header__copyright">Picture: Generated with Stable Diffusion, by Imanuel Ulbricht</span>
   </header>
   <Article title="Why choose Jinya">
     The Jinya CMS is made by artists for artists. Every part of Jinya was designed with ease of use in mind. During
@@ -33,7 +33,7 @@
         <a href="https://imanuel.dev">Imanuel Ulbricht</a> is a developer and designer based in Hildesheim, Germany. He
         develops websites, desktop applications and mobile applications. Together with Jenny he started the development
         of the Jinya CMS back in October 2017. He has developed several open source projects since then and is currently
-        employed at Lineas Informationstechnik GmbH in Wolfsburg, Germany.
+        employed at GOD mbH in Brunswick, Germany.
       </div>
     </div>
     <div class="jinya-who__row jinya-who__row--inverse">

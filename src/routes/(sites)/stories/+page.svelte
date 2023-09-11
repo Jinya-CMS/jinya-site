@@ -13,7 +13,7 @@
     </p>
     <a class="jinya-story__visit" href="https://jenny-jinya.com">Visit jenny-jinya.com</a>
   </div>
-  <img alt="Startpage of jenny-jinya.com" class="jinya-story__preview" src="/jenny-jinya.com.png">
+  <img alt="Startpage of jenny-jinya.com" class="jinya-story__preview" src="/jenny-jinya.com.webp">
 </div>
 <div class="jinya-story jinya-story--inverse">
   <div class="jinya-story__info">
@@ -25,7 +25,7 @@
     <a class="jinya-story__visit" href="https://lovingreaper.com">Visit lovingreaper.com</a>
   </div>
   <img alt="Startpage of lovingreaper.com" class="jinya-story__preview jinya-story__preview--inverse"
-       src="/lovingreaper.com.jpg">
+       src="/lovingreaper.com.webp">
 </div>
 <div class="jinya-story">
   <div class="jinya-story__info">
@@ -36,7 +36,7 @@
     </p>
     <a class="jinya-story__visit" href="https://design.imanuel.dev/">Visit design.imanuel.dev</a>
   </div>
-  <img alt="Startpage of design.imanuel.dev" class="jinya-story__preview" src="/design.imanuel.dev.png">
+  <img alt="Startpage of design.imanuel.dev" class="jinya-story__preview" src="/design.imanuel.dev.webp">
 </div>
 <div class="jinya-story jinya-story--inverse">
   <div class="jinya-story__info">
@@ -48,7 +48,7 @@
     <a class="jinya-story__visit" href="https://creastina.art">Visit creastina.art</a>
   </div>
   <img alt="Startpage of creastina.art" class="jinya-story__preview jinya-story__preview--inverse"
-       src="/creastina.art.png">
+       src="/creastina.art.webp">
 </div>
 
 <style>
