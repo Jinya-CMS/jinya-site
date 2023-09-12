@@ -15,6 +15,12 @@ a {
 	color: var(--primary-color);
 }
 
+@media (prefers-color-scheme: dark) {
+	a {
+		color: var(--text-color);
+	}
+}
+
 .jinya-noscroll {
 	overflow: hidden;
 }

@@ -9,7 +9,7 @@
 
 <main>
   <header class="jinya-header--startpage">
-    <img alt="Header image" aria-hidden="true" class="jinya-header__image" src="/startpage.webp">
+    <img alt="Header image" aria-hidden="true" class="jinya-header__image" src="/img/startpage.webp">
     <Navigation inverse="true" />
     <div class="jinya-callout">
       <h1 class="jinya-callout__title">Jinya CMS</h1>

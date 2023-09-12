@@ -34,6 +34,12 @@
     color: var(--primary-color);
   }
 
+  @media (prefers-color-scheme: dark) {
+    .jinya-article__title {
+      color: var(--text-color);
+    }
+  }
+
   @media screen and (max-width: 1280px) {
     .jinya-article__title {
       font-size: 2rem;
