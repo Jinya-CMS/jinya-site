@@ -1,8 +1,8 @@
 <script>
-  import { titleStore } from "../stores.js";
-  import Article from "../../../partials/article.svelte";
+	import { titleStore } from '../stores.js';
+	import Article from '../../../partials/article.svelte';
 
-  titleStore.set('Imprint');
+	titleStore.set('Imprint');
 </script>
 
 <Article title="Angaben gemäß § 5 TMG">

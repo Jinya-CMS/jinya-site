@@ -1,9 +1,9 @@
 <script>
-  import { titleStore } from "../routes/(sites)/stores.js";
-  import Logo from "../Logo.svg?component";
-  import Github from "../Github.svg?component";
+	import { titleStore } from '../routes/(sites)/stores.js';
+	import Logo from '../Logo.svg?component';
+	import Github from '../Github.svg?component';
 
-  export let inverse = false;
+	export let inverse = false;
 	let navToggled = false;
 	let mobileTitle;
 	titleStore.subscribe((value) => (mobileTitle = value));

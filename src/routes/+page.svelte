@@ -1,10 +1,10 @@
 <script>
-  import Footer from "../partials/footer.svelte";
-  import Article from "../partials/article.svelte";
-  import Navigation from "../partials/navigation.svelte";
-  import { titleStore } from "./(sites)/stores.js";
+	import Footer from '../partials/footer.svelte';
+	import Article from '../partials/article.svelte';
+	import Navigation from '../partials/navigation.svelte';
+	import { titleStore } from './(sites)/stores.js';
 
-  titleStore.set('Jinya CMS');
+	titleStore.set('Jinya CMS');
 </script>
 
 <main>

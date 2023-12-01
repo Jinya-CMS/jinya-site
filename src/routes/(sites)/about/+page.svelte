@@ -1,8 +1,8 @@
 <script>
-  import { titleStore } from "../stores.js";
-  import Article from "../../../partials/article.svelte";
+	import { titleStore } from '../stores.js';
+	import Article from '../../../partials/article.svelte';
 
-  titleStore.set('About');
+	titleStore.set('About');
 </script>
 
 <Article title="The reason behind it">

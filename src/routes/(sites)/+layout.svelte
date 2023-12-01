@@ -1,9 +1,9 @@
 <script>
-  import Navigation from "../../partials/navigation.svelte";
-  import Footer from "../../partials/footer.svelte";
-  import { titleStore } from "./stores.js";
+	import Navigation from '../../partials/navigation.svelte';
+	import Footer from '../../partials/footer.svelte';
+	import { titleStore } from './stores.js';
 
-  let title;
+	let title;
 
 	titleStore.subscribe((value) => (title = value));
 </script>

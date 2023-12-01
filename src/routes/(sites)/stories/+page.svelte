@@ -1,7 +1,7 @@
 <script>
-  import { titleStore } from "../stores.js";
+	import { titleStore } from '../stores.js';
 
-  titleStore.set('Stories');
+	titleStore.set('Stories');
 </script>
 
 <div class="jinya-story">

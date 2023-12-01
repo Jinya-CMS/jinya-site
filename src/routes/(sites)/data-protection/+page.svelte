@@ -1,8 +1,8 @@
 <script>
-  import { titleStore } from "../stores.js";
-  import Article from "../../../partials/article.svelte";
+	import { titleStore } from '../stores.js';
+	import Article from '../../../partials/article.svelte';
 
-  titleStore.set('Privacy Policy');
+	titleStore.set('Privacy Policy');
 </script>
 
 <Article title="Privacy Policy for jinya.de">

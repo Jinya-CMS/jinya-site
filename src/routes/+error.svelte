@@ -1,7 +1,7 @@
 <script>
-  import Article from "../partials/article.svelte";
-  import Navigation from "../partials/navigation.svelte";
-  import Footer from "../partials/footer.svelte";
+	import Article from '../partials/article.svelte';
+	import Navigation from '../partials/navigation.svelte';
+	import Footer from '../partials/footer.svelte';
 </script>
 
 <main class="jinya-main">

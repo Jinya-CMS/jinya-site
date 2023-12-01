@@ -1,8 +1,8 @@
 <script>
-  import { titleStore } from "../stores.js";
-  import Article from "../../../partials/article.svelte";
+	import { titleStore } from '../stores.js';
+	import Article from '../../../partials/article.svelte';
 
-  titleStore.set('Get Jinya');
+	titleStore.set('Get Jinya');
 </script>
 
 <Article title="Install Jinya on your server">
