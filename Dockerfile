@@ -1,4 +1,4 @@
-FROM harbor.ulbricht.casa/proxy/library/node:latest
+FROM library/node:latest
 
 WORKDIR /app
 COPY . .
