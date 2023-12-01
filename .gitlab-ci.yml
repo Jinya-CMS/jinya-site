@@ -17,7 +17,7 @@ docker-build:
     pull_policy: always
     entrypoint: ['']
   before_script:
-    - echo $KANIKO_HARBOR_ONLY > /kaniko/.docker/config.json
+    - echo $KANIKO_DOCKERHUB_AND_HARBOR > /kaniko/.docker/config.json
   script:
     - /kaniko/executor
       --context "${CI_PROJECT_DIR}"
