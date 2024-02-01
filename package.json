@@ -10,7 +10,7 @@
 		"format": "prettier --write . && eslint . --fix"
 	},
 	"dependencies": {
-		"nodemailer": "6.9.8"
+		"nodemailer": "6.9.9"
 	},
 	"devDependencies": {
 		"@poppanator/sveltekit-svg": "4.2.1",
