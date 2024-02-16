@@ -10,20 +10,20 @@
 		"format": "prettier --write . && eslint . --fix"
 	},
 	"dependencies": {
-		"nodemailer": "6.9.8"
+		"nodemailer": "6.9.9"
 	},
 	"devDependencies": {
 		"@poppanator/sveltekit-svg": "4.2.1",
-		"@sveltejs/adapter-node": "3.0.1",
-		"@sveltejs/kit": "2.3.5",
-		"@sveltejs/vite-plugin-svelte": "3.0.1",
+		"@sveltejs/adapter-node": "4.0.1",
+		"@sveltejs/kit": "2.5.0",
+		"@sveltejs/vite-plugin-svelte": "3.0.2",
 		"eslint": "8.56.0",
 		"eslint-config-prettier": "9.1.0",
 		"eslint-plugin-svelte": "2.35.1",
-		"prettier": "3.2.4",
-		"prettier-plugin-svelte": "3.1.2",
-		"svelte": "4.2.9",
-		"vite": "5.0.11"
+		"prettier": "3.2.5",
+		"prettier-plugin-svelte": "3.2.1",
+		"svelte": "4.2.11",
+		"vite": "5.1.3"
 	},
 	"type": "module"
 }
