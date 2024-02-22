@@ -31,7 +31,7 @@
 		padding: 0;
 		font-size: 3rem;
 		font-weight: 200;
-    font-family: Urbanist, sans-serif;
+		font-family: Urbanist, sans-serif;
 		color: var(--primary-color);
 	}
 

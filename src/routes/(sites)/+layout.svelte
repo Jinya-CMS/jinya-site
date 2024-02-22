@@ -3,12 +3,12 @@
 	import Footer from '../../partials/footer.svelte';
 	import { titleStore } from './stores.js';
 
-  import '@fontsource/albert-sans/300.css';
-  import '@fontsource/albert-sans/400.css';
+	import '@fontsource/albert-sans/300.css';
+	import '@fontsource/albert-sans/400.css';
 
-  import '@fontsource/urbanist/200.css';
-  import '@fontsource/urbanist/300.css';
-  import '@fontsource/urbanist/400.css';
+	import '@fontsource/urbanist/200.css';
+	import '@fontsource/urbanist/300.css';
+	import '@fontsource/urbanist/400.css';
 
 	let title;
 
@@ -55,8 +55,8 @@
 	.jinya-banner__title {
 		color: var(--text-color-white);
 		font-size: 3rem;
-    font-family: Urbanist, sans-serif;
-    font-weight: 400;
+		font-family: Urbanist, sans-serif;
+		font-weight: 400;
 	}
 
 	@media screen and (max-width: 480px) {

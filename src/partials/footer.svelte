@@ -20,7 +20,7 @@
 		bottom: 0;
 		width: 100vw;
 		box-sizing: border-box;
-    font-family: Urbanist, sans-serif;
+		font-family: Urbanist, sans-serif;
 	}
 
 	@media screen and (max-width: 1280px) {

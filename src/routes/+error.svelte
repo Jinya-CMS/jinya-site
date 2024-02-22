@@ -3,12 +3,12 @@
 	import Navigation from '../partials/navigation.svelte';
 	import Footer from '../partials/footer.svelte';
 
-  import '@fontsource/albert-sans/300.css';
-  import '@fontsource/albert-sans/400.css';
+	import '@fontsource/albert-sans/300.css';
+	import '@fontsource/albert-sans/400.css';
 
-  import '@fontsource/urbanist/200.css';
-  import '@fontsource/urbanist/300.css';
-  import '@fontsource/urbanist/400.css';
+	import '@fontsource/urbanist/200.css';
+	import '@fontsource/urbanist/300.css';
+	import '@fontsource/urbanist/400.css';
 </script>
 
 <main class="jinya-main">
@@ -51,7 +51,7 @@
 	.jinya-banner__title {
 		color: var(--text-color-white);
 		font-size: 3rem;
-    font-family: Urbanist, sans-serif;
+		font-family: Urbanist, sans-serif;
 	}
 
 	@media screen and (max-width: 480px) {

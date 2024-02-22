@@ -100,7 +100,7 @@
 		padding: 0;
 		font-size: 3rem;
 		font-weight: 400;
-    font-family: Urbanist, sans-serif;
+		font-family: Urbanist, sans-serif;
 		color: var(--primary-color);
 		flex: 0 0 50%;
 	}
@@ -173,8 +173,8 @@
 		box-sizing: border-box;
 		border: 2px solid var(--primary-color);
 		cursor: pointer;
-    font-family: Urbanist, sans-serif;
-    font-weight: 300;
+		font-family: Urbanist, sans-serif;
+		font-weight: 300;
 	}
 
 	.jinya-story__visit:hover {

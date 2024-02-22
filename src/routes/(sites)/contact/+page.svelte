@@ -104,7 +104,7 @@
 
 	.jinya-label {
 		font-size: 1.5rem;
-    font-family: Urbanist, sans-serif;
+		font-family: Urbanist, sans-serif;
 	}
 
 	@media screen and (max-width: 480px) {

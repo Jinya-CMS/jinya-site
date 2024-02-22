@@ -2,7 +2,7 @@
 	import { titleStore } from '../stores.js';
 	import Article from '../../../partials/article.svelte';
 
-  import '@fontsource/oxygen-mono/400.css'
+	import '@fontsource/oxygen-mono/400.css';
 
 	titleStore.set('Get Jinya');
 </script>
