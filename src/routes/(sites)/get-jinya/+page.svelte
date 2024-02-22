@@ -2,6 +2,8 @@
 	import { titleStore } from '../stores.js';
 	import Article from '../../../partials/article.svelte';
 
+  import '@fontsource/oxygen-mono/400.css'
+
 	titleStore.set('Get Jinya');
 </script>
 
@@ -22,7 +24,7 @@ version: '3.7'
 
 services:
   jinya-mysql-database:
-    image: library/mysql:8.0
+    image: library/mariadb:latest
     environment:
       MYSQL_DATABASE: jinya
       MYSQL_PASSWORD: jinya
@@ -30,17 +32,11 @@ services:
       MYSQL_USER: jinya
     ports:
       - 3306:3306
-  jinya-mailhog:
-    image: mailhog/mailhog:latest
-    ports:
-      - 8025:8025
-      - 1025:1025
   jinya-cms:
     image: jinyacms/jinya-cms:latest
     ports:
       - 8080:80
     links:
-      - jinya-mailhog
       - jinya-mysql-database</pre>
 </Article>
 
@@ -54,7 +50,7 @@ services:
 
 <style>
 	.jinya-install--docker {
-		font-family: 'Source Code Pro', monospace;
+		font-family: 'Oxygen Mono', monospace;
 		border: 1px solid var(--primary-color);
 		padding: 2rem 0.5rem 0.25rem;
 		position: relative;

@@ -30,7 +30,8 @@
 		margin: 0;
 		padding: 0;
 		font-size: 3rem;
-		font-weight: 400;
+		font-weight: 200;
+    font-family: Urbanist, sans-serif;
 		color: var(--primary-color);
 	}
 

@@ -122,6 +122,7 @@
 		grid-row: 1;
 		box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
 		align-self: flex-start;
+    font-family: Urbanist, sans-serif;
 	}
 
 	.jinya-nav--mobile {

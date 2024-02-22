@@ -4,6 +4,12 @@
 	import Navigation from '../partials/navigation.svelte';
 	import { titleStore } from './(sites)/stores.js';
 
+  import '@fontsource/albert-sans/300.css';
+  import '@fontsource/albert-sans/400.css';
+
+  import '@fontsource/urbanist/200.css';
+  import '@fontsource/urbanist/400.css';
+
 	titleStore.set('Jinya CMS');
 </script>
 
@@ -108,6 +114,7 @@
 	.jinya-callout__title {
 		font-size: 3rem;
 		margin-bottom: 0;
+    font-family: Urbanist, sans-serif;
 	}
 
 	.jinya-callout__claim {
