@@ -12,7 +12,7 @@
 	"dependencies": {
 		"@fontsource/albert-sans": "5.0.8",
 		"@fontsource/oxygen-mono": "5.0.18",
-		"@fontsource/urbanist": "5.0.18",
+		"@fontsource/urbanist": "5.0.19",
 		"nodemailer": "6.9.11"
 	},
 	"devDependencies": {
