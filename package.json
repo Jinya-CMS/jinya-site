@@ -13,7 +13,7 @@
 		"@fontsource/albert-sans": "5.0.12",
 		"@fontsource/oxygen-mono": "5.0.19",
 		"@fontsource/urbanist": "5.0.19",
-		"nodemailer": "6.9.11"
+		"nodemailer": "6.9.12"
 	},
 	"devDependencies": {
 		"@poppanator/sveltekit-svg": "4.2.1",
