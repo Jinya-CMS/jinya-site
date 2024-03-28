@@ -13,12 +13,12 @@
 		"@fontsource/albert-sans": "5.0.12",
 		"@fontsource/oxygen-mono": "5.0.19",
 		"@fontsource/urbanist": "5.0.19",
-		"nodemailer": "6.9.12"
+		"nodemailer": "6.9.13"
 	},
 	"devDependencies": {
 		"@poppanator/sveltekit-svg": "4.2.1",
 		"@sveltejs/adapter-node": "5.0.1",
-		"@sveltejs/kit": "2.5.4",
+		"@sveltejs/kit": "2.5.5",
 		"@sveltejs/vite-plugin-svelte": "3.0.2",
 		"eslint": "8.57.0",
 		"eslint-config-prettier": "9.1.0",
@@ -26,7 +26,7 @@
 		"prettier": "3.2.5",
 		"prettier-plugin-svelte": "3.2.2",
 		"svelte": "4.2.12",
-		"vite": "5.1.6"
+		"vite": "5.2.6"
 	},
 	"type": "module"
 }
