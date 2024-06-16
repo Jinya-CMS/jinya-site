@@ -17,16 +17,16 @@
 	},
 	"devDependencies": {
 		"@poppanator/sveltekit-svg": "4.2.1",
-		"@sveltejs/adapter-node": "5.0.1",
-		"@sveltejs/kit": "2.5.10",
+		"@sveltejs/adapter-node": "5.1.0",
+		"@sveltejs/kit": "2.5.15",
 		"@sveltejs/vite-plugin-svelte": "3.1.1",
 		"eslint": "8.57.0",
 		"eslint-config-prettier": "9.1.0",
-		"eslint-plugin-svelte": "2.39.0",
-		"prettier": "3.3.1",
+		"eslint-plugin-svelte": "2.39.4",
+		"prettier": "3.3.2",
 		"prettier-plugin-svelte": "3.2.4",
 		"svelte": "4.2.18",
-		"vite": "5.2.12"
+		"vite": "5.3.1"
 	},
 	"type": "module"
 }
