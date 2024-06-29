@@ -32,6 +32,7 @@ ${message}`
 
 			return { success: true };
 		} catch (e) {
+			console.error(e);
 			return { success: false };
 		}
 	}
