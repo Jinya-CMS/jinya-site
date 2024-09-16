@@ -9,26 +9,24 @@
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write . && eslint . --fix"
 	},
-	"dependencies": {
-		"@fontsource/albert-sans": "5.0.14",
-		"@fontsource/oxygen-mono": "5.0.21",
-		"@fontsource/urbanist": "5.0.21",
-		"nodemailer": "6.9.14"
-	},
 	"devDependencies": {
-		"@eslint/js": "9.9.1",
+		"@eslint/js": "9.10.0",
+    "@fontsource/albert-sans": "5.1.0",
+    "@fontsource/oxygen-mono": "5.1.0",
+    "@fontsource/urbanist": "5.1.0",
 		"@poppanator/sveltekit-svg": "4.2.1",
 		"@sveltejs/adapter-node": "5.2.2",
-		"@sveltejs/kit": "2.5.25",
+		"@sveltejs/kit": "2.5.27",
 		"@sveltejs/vite-plugin-svelte": "3.1.2",
-		"eslint": "9.9.1",
+		"eslint": "9.10.0",
 		"eslint-config-prettier": "9.1.0",
-		"eslint-plugin-svelte": "2.43.0",
+		"eslint-plugin-svelte": "2.44.0",
 		"globals": "15.9.0",
+    "nodemailer": "6.9.15",
 		"prettier": "3.3.3",
 		"prettier-plugin-svelte": "3.2.6",
 		"svelte": "4.2.19",
-		"vite": "5.4.2"
+		"vite": "5.4.6"
 	},
 	"type": "module"
 }
