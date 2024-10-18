@@ -10,23 +10,23 @@
 		"format": "prettier --write . && eslint . --fix"
 	},
 	"devDependencies": {
-		"@eslint/js": "9.11.1",
+		"@eslint/js": "9.13.0",
 		"@fontsource/albert-sans": "5.1.0",
 		"@fontsource/oxygen-mono": "5.1.0",
 		"@fontsource/urbanist": "5.1.0",
 		"@poppanator/sveltekit-svg": "4.2.1",
-		"@sveltejs/adapter-node": "5.2.5",
-		"@sveltejs/kit": "2.6.1",
+		"@sveltejs/adapter-node": "5.2.8",
+		"@sveltejs/kit": "2.7.1",
 		"@sveltejs/vite-plugin-svelte": "3.1.2",
-		"eslint": "9.11.1",
+		"eslint": "9.13.0",
 		"eslint-config-prettier": "9.1.0",
-		"eslint-plugin-svelte": "2.44.1",
-		"globals": "15.10.0",
+		"eslint-plugin-svelte": "2.45.1",
+		"globals": "15.11.0",
 		"nodemailer": "6.9.15",
 		"prettier": "3.3.3",
 		"prettier-plugin-svelte": "3.2.7",
 		"svelte": "4.2.19",
-		"vite": "5.4.8"
+		"vite": "5.4.9"
 	},
 	"type": "module"
 }
