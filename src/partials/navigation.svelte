@@ -46,7 +46,8 @@
 		<Logo height="1em" width="1em" />
 		{mobileTitle}
 	</span>
-	<button aria-label="Toogle navigation" class="jinya-hamburger" on:click={toggleNavigation}></button>
+	<button aria-label="Toogle navigation" class="jinya-hamburger" on:click={toggleNavigation}
+	></button>
 </div>
 <nav class="jinya-nav--mobile" class:jinya-nav--mobile-open={navToggled}>
 	<a class="jinya-nav__link jinya-nav__link--inverse" href="/" on:click={hideNav}>Startpage</a>
