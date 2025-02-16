@@ -56,3 +56,11 @@ merge-manifests:
       - TAG: 2.0.${CI_PIPELINE_IID}
   rules:
     - if: $CI_COMMIT_BRANCH == "main"
+
+trigger-kube:
+  variables:
+    TAG: 2.0.${CI_PIPELINE_IID}
+  stage: deploy
+  trigger: server-management/main-server.ulbricht.casa/jinya.de
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
