@@ -25,7 +25,7 @@
 </main>
 
 <svelte:head>
-	<title>{`Jinya CMS – 404`}</title>
+	<title>Jinya CMS – 404</title>
 </svelte:head>
 
 <style>
