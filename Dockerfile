@@ -1,10 +1,7 @@
-FROM library/node:alpine
+FROM oven/bun:alpine AS build
 
-WORKDIR /app
-COPY . .
+COPY build /app
 
 EXPOSE 3000
 
-RUN npm install --force
-RUN npm run build
-ENTRYPOINT node build/index.js
+ENTRYPOINT ["bun", "run", "start"]

@@ -1,14 +1,17 @@
 stages:
-  - test
+  - build
   - deploy
 
-test:
-  image: library/node:latest
-  stage: test
+build:
+  image: oven/bun:latest
+  stage: build
   script:
-    - npm install
-    - npm run lint
-    - npm run build
+    - bun install
+    - bun run lint
+    - bun run build
+  artifacts:
+    paths:
+      - build
 
 docker-build:
   stage: deploy
