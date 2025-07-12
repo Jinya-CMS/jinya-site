@@ -1,4 +1,4 @@
-FROM oven/bun:alpine AS build
+FROM docker.io/oven/bun:alpine AS build
 
 COPY build /app
 

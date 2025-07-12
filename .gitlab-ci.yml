@@ -3,7 +3,13 @@ stages:
   - docker
   - deploy
 
-build:
+.base-docker:
+  image: registry.ulbricht.casa/docker-images/buildah:latest
+  before_script:
+    - echo "$CI_REGISTRY_PASSWORD" | buildah login -u "$CI_REGISTRY_USER" --password-stdin $CI_REGISTRY
+    - echo "$DOCKERHUB_PASSWORD" | buildah login -u "$DOCKERHUB_USER" --password-stdin docker.io
+
+test:
   image: oven/bun:latest
   stage: build
   script:
@@ -16,18 +22,19 @@ build:
 
 docker-build:
   stage: docker
-  image:
-    name: gcr.io/kaniko-project/executor:debug
-    pull_policy: always
-    entrypoint: ['']
-  before_script:
-    - echo "{\"auths\":{\"${CI_REGISTRY}\":{\"auth\":\"$(printf "%s:%s" "${CI_REGISTRY_USER}" "${CI_REGISTRY_PASSWORD}" | base64 | tr -d '\n')\"},\"https://index.docker.io/v1/\":{\"auth\":\"$DOCKER_TOKEN\"}}}" > /kaniko/.docker/config.json
+  extends: .base-docker
+  variables:
+    IMG: $CI_REGISTRY_IMAGE/$ARCH:2.0.$CI_PIPELINE_IID
   script:
-    - /kaniko/executor
-      --context "${CI_PROJECT_DIR}"
-      --dockerfile "${CI_PROJECT_DIR}/Dockerfile"
-      --destination "${CI_REGISTRY_IMAGE}/${ARCH}:2.0.${CI_PIPELINE_IID}"
-      --destination "${CI_REGISTRY_IMAGE}/${ARCH}:latest"
+    - buildah build
+      --platform=linux/$ARCH
+      --build-arg "MAIL_PASS=${MAIL_PASS}"
+      --build-arg "MAIL_SERVER=${MAIL_SERVER}"
+      --build-arg "MAIL_PORT=${MAIL_PORT}"
+      --build-arg "MAIL_USER=${MAIL_USER}"
+      --build-arg "MAIL_FROM=${MAIL_FROM}"
+      -t $IMG
+      $CI_PROJECT_DIR
   rules:
     - if: $CI_COMMIT_BRANCH == "main"
   parallel:
@@ -35,35 +42,29 @@ docker-build:
       - ARCH: amd64
       - ARCH: arm64
   tags:
-    - runner-${ARCH}
+    - runner-$ARCH
 
 merge-manifests:
-  stage: docker
-  needs:
-    - job: docker-build
-      artifacts: false
-  image:
-    name: mplatform/manifest-tool:alpine
-    entrypoint: [""]
+  stage: deploy
+  extends: .base-docker
+  variables:
+    FQ_IMAGE_NAME: $CI_REGISTRY_IMAGE:$TAG
   script:
-    - >-
-      manifest-tool
-      --username=${CI_REGISTRY_USER}
-      --password=${CI_REGISTRY_PASSWORD}
-      push from-args
-      --platforms linux/amd64,linux/arm64
-      --template ${CI_REGISTRY_IMAGE}/ARCH:${TAG}
-      --target ${CI_REGISTRY_IMAGE}:${TAG}
+    - buildah manifest create $FQ_IMAGE_NAME
+    - buildah manifest add $FQ_IMAGE_NAME docker://$CI_REGISTRY_IMAGE/amd64:$TAG
+    - buildah manifest add $FQ_IMAGE_NAME docker://$CI_REGISTRY_IMAGE/arm64:$TAG
+    - buildah manifest push --all $FQ_IMAGE_NAME
   parallel:
     matrix:
-      - TAG: latest
-      - TAG: 2.0.${CI_PIPELINE_IID}
+      - TAG: 2.0.$CI_PIPELINE_IID
   rules:
     - if: $CI_COMMIT_BRANCH == "main"
 
 trigger-kube:
   variables:
     TAG: 2.0.${CI_PIPELINE_IID}
+  needs:
+    - job: merge-manifests
   stage: deploy
   trigger: server-management/main-server.ulbricht.casa/jinya.de
   rules:
