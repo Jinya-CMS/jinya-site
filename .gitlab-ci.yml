@@ -35,6 +35,7 @@ docker-build:
       --build-arg "MAIL_FROM=${MAIL_FROM}"
       -t $IMG
       $CI_PROJECT_DIR
+    - buildah push $IMG
   rules:
     - if: $CI_COMMIT_BRANCH == "main"
   parallel:
