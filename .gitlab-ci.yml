@@ -10,7 +10,7 @@ stages:
     - echo "$DOCKERHUB_PASSWORD" | buildah login -u "$DOCKERHUB_USER" --password-stdin docker.io
 
 test:
-  image: oven/bun:latest
+  image: $CI_DEPENDENCY_PROXY_GROUP_IMAGE_PREFIX/oven/bun:latest
   stage: build
   script:
     - bun install
@@ -34,6 +34,7 @@ docker-build:
       --build-arg "MAIL_PORT=${MAIL_PORT}"
       --build-arg "MAIL_USER=${MAIL_USER}"
       --build-arg "MAIL_FROM=${MAIL_FROM}"
+      --build-arg CI_DEPENDENCY_PROXY_GROUP_IMAGE_PREFIX=$CI_DEPENDENCY_PROXY_GROUP_IMAGE_PREFIX
       -t $IMG
       $CI_PROJECT_DIR
     - buildah push $IMG
