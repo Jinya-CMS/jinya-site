@@ -1,6 +1,7 @@
 <script>
 	import { titleStore } from '../stores.js';
 	import Article from '../../../partials/article.svelte';
+	import { resolve } from '$app/paths';
 
 	titleStore.set('Contact us');
 
@@ -9,14 +10,10 @@
 
 <Article title="Contact form">
 	{#if form?.success}
-		<div class="jinya-message--success">
-			Your message was sent, we will send you a reply as fast as we can
-		</div>
+		<div class="jinya-message--success">Your message was sent, we will send you a reply as fast as we can</div>
 	{:else if form?.success === false}
 		<div class="jinya-message--failure">
-			Your message could not be sent, please send your concern to <a
-				href="mailto:developers@jinya.de">developers@jinya.de</a
-			>
+			Your message could not be sent, please send your concern to <a href="mailto:developers@jinya.de">developers@jinya.de</a>
 		</div>
 	{/if}
 	<form class="jinya-form" method="post">
@@ -30,10 +27,10 @@
 		<textarea class="jinya-textarea" id="message" name="message" required rows="15"></textarea>
 		<div>
 			<input class="jinya-checkbox" id="accept" required type="checkbox" />
-			<label for="accept"
-				>I have read the <a href="/data-protection" target="_blank">data protection page</a>
-				<small>(required)</small></label
-			>
+			<label for="accept">
+				I have read the <a href={resolve('/data-protection')} target="_blank">data protection page</a>
+				<small>(required)</small>
+			</label>
 		</div>
 		<button class="jinya-button" type="submit">Send your message</button>
 	</form>

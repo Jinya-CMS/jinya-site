@@ -15,26 +15,18 @@
 
 <main>
 	<header class="jinya-header--startpage">
-		<img
-			alt="Header image"
-			aria-hidden="true"
-			class="jinya-header__image"
-			src="/img/startpage.webp"
-		/>
+		<img alt="Header image" aria-hidden="true" class="jinya-header__image" src="/img/startpage.webp" />
 		<Navigation inverse="true" />
 		<div class="jinya-callout">
 			<h1 class="jinya-callout__title">Jinya CMS</h1>
 			<p class="jinya-callout__claim">The simplest way to manage your portfolio</p>
 		</div>
-		<span class="jinya-header__copyright"
-			>Picture: Generated with Stable Diffusion, by Imanuel Ulbricht</span
-		>
+		<span class="jinya-header__copyright">Picture: Generated with Stable Diffusion, by Imanuel Ulbricht</span>
 	</header>
 	<Article title="Why choose Jinya">
-		The Jinya CMS is made by artists for artists. Every part of Jinya was designed with ease of use
-		in mind. During development everything evolves around displaying digital art and putting your
-		artworks in the center of attention for your fans. There are countless other CMS out there, but
-		most of them concentrate on text based content. Jinya focuses on images and artworks.
+		The Jinya CMS is made by artists for artists. Every part of Jinya was designed with ease of use in mind. During development everything
+		evolves around displaying digital art and putting your artworks in the center of attention for your fans. There are countless other CMS
+		out there, but most of them concentrate on text based content. Jinya focuses on images and artworks.
 	</Article>
 	<Article title="Who's behind it">
 		<div class="jinya-who__row">
@@ -43,10 +35,9 @@
 				<p class="jinya-who__job">Developer and Co-Founder</p>
 			</div>
 			<div class="jinya-who__description">
-				<a href="https://imanuel.dev">Imanuel Ulbricht</a> is a developer and designer based in Hildesheim,
-				Germany. He develops websites, desktop applications and mobile applications. Together with Jenny
-				he started the development of the Jinya CMS back in October 2017. He has developed several open
-				source projects since then and is currently employed at GOD mbH in Brunswick, Germany.
+				<a href="https://imanuel.dev">Imanuel Ulbricht</a> is a developer and designer based in Hildesheim, Germany. He develops websites, desktop
+				applications and mobile applications. Together with Jenny he started the development of the Jinya CMS back in October 2017. He has developed
+				several open source projects since then and is currently employed at GOD mbH in Brunswick, Germany.
 			</div>
 		</div>
 		<div class="jinya-who__row jinya-who__row--inverse">
@@ -55,11 +46,10 @@
 				<p class="jinya-who__job">Artist and Co-Founder</p>
 			</div>
 			<div class="jinya-who__description">
-				<a href="https://jenny-jinya.com">Jenny Hefczyc</a>, better known as Jenny-Jinya, is the
-				artist the Jinya CMS was originally developed for. She had her first exhibition at the age
-				of 16 and is currently active as self-employed and freelance artist. She is most famously
-				known for her work on the Loving Reaper series. The Loving Reaper series features, as of
-				now, two publications and more are planned.
+				<a href="https://jenny-jinya.com">Jenny Hefczyc</a>, better known as Jenny-Jinya, is the artist the Jinya CMS was originally
+				developed for. She had her first exhibition at the age of 16 and is currently active as self-employed and freelance artist. She is
+				most famously known for her work on the Loving Reaper series. The Loving Reaper series features, as of now, two publications and
+				more are planned.
 			</div>
 		</div>
 	</Article>

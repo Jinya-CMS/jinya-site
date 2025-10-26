@@ -8,63 +8,45 @@
 	<div class="jinya-story__info">
 		<h2 class="jinya-story__who">Jenny-Jinya</h2>
 		<p class="jinya-story__content">
-			Jenny-Jinya is a freelance illustrator based in Germany, she studies Digital Media and had a
-			number of exhibitions since she is 16, her new portfolio got an incredible amount of positive
-			feedback.
+			Jenny-Jinya is a freelance illustrator based in Germany, she studies Digital Media and had a number of exhibitions since she is 16,
+			her new portfolio got an incredible amount of positive feedback.
 		</p>
 		<a class="jinya-story__visit" href="https://jenny-jinya.com">Visit jenny-jinya.com</a>
 	</div>
-	<img
-		alt="Startpage of jenny-jinya.com"
-		class="jinya-story__preview"
-		src="/img/jenny-jinya.com.webp"
-	/>
+	<img alt="Startpage of jenny-jinya.com" class="jinya-story__preview" src="/img/jenny-jinya.com.webp" />
 </div>
 <div class="jinya-story jinya-story--inverse">
 	<div class="jinya-story__info">
 		<h2 class="jinya-story__who">Jenny-Jinya Comics</h2>
 		<p class="jinya-story__content">
-			Jenny Jinya comics is the comic website of the artist Jenny-Jinya. She is the creator of the
-			famous Loving Reaper comic series. She trusts Jinya to give people the perfect view on her
-			comics.
+			Jenny Jinya comics is the comic website of the artist Jenny-Jinya. She is the creator of the famous Loving Reaper comic series. She
+			trusts Jinya to give people the perfect view on her comics.
 		</p>
 		<a class="jinya-story__visit" href="https://lovingreaper.com">Visit lovingreaper.com</a>
 	</div>
-	<img
-		alt="Startpage of lovingreaper.com"
-		class="jinya-story__preview jinya-story__preview--inverse"
-		src="/img/lovingreaper.com.webp"
-	/>
+	<img alt="Startpage of lovingreaper.com" class="jinya-story__preview jinya-story__preview--inverse" src="/img/lovingreaper.com.webp" />
 </div>
 <div class="jinya-story">
 	<div class="jinya-story__info">
 		<h2 class="jinya-story__who">Imanuel Ulbricht Design</h2>
 		<p class="jinya-story__content">
-			Imanuel Ulbricht is a professional web and app developer. The portfolio was created with the
-			default theme of Jinya and is the perfect showcase.
+			Imanuel Ulbricht is a professional web and app developer. The portfolio was created with the default theme of Jinya and is the perfect
+			showcase.
 		</p>
 		<a class="jinya-story__visit" href="https://design.imanuel.dev/">Visit design.imanuel.dev</a>
 	</div>
-	<img
-		alt="Startpage of design.imanuel.dev"
-		class="jinya-story__preview"
-		src="/img/design.imanuel.dev.webp"
-	/>
+	<img alt="Startpage of design.imanuel.dev" class="jinya-story__preview" src="/img/design.imanuel.dev.webp" />
 </div>
 <div class="jinya-story jinya-story--inverse">
 	<div class="jinya-story__info">
 		<h2 class="jinya-story__who">Creastina</h2>
 		<p class="jinya-story__content">
-			Creastina is the private crafting blog of Christina. Together with Christina we developed a
-			blog platform that perfectly integrates into the Jinya CMS.
+			Creastina is the private crafting blog of Christina. Together with Christina we developed a blog platform that perfectly integrates
+			into the Jinya CMS.
 		</p>
 		<a class="jinya-story__visit" href="https://creastina.art">Visit creastina.art</a>
 	</div>
-	<img
-		alt="Startpage of creastina.art"
-		class="jinya-story__preview jinya-story__preview--inverse"
-		src="/img/creastina.art.webp"
-	/>
+	<img alt="Startpage of creastina.art" class="jinya-story__preview jinya-story__preview--inverse" src="/img/creastina.art.webp" />
 </div>
 
 <style>

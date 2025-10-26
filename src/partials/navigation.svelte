@@ -2,6 +2,7 @@
 	import { titleStore } from '../routes/(sites)/stores.js';
 	import Logo from '../Logo.svg?component';
 	import Github from '../Github.svg?component';
+	import { resolve } from '$app/paths';
 
 	export let inverse = false;
 	let navToggled = false;
@@ -19,24 +20,17 @@
 
 <nav class="jinya-nav jinya-nav--desktop" class:jinya-nav--inverse={inverse}>
 	<div class="jinya-nav__left">
-		<a class="jinya-nav__brand" class:jinya-nav__brand--inverse={inverse} href="/">
+		<a class="jinya-nav__brand" class:jinya-nav__brand--inverse={inverse} href={resolve('/')}>
 			<Logo height="1em" width="1em" />
 			Jinya CMS
 		</a>
 	</div>
 	<div class="jinya-nav__right">
-		<a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href="/about">About</a>
-		<a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href="/stories">Stories</a>
-		<a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href="/get-jinya"
-			>Get Jinya</a
-		>
-		<a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href="/contact">Contact</a>
-		<a
-			class="jinya-nav__link"
-			class:jinya-nav__link--inverse={inverse}
-			href="https://github.com/Jinya-CMS/jinya-cms"
-			target="_blank"
-		>
+		<a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href={resolve('/about')}>About</a>
+		<a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href={resolve('/stories')}>Stories</a>
+		<a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href={resolve('/get-jinya')}>Get Jinya</a>
+		<a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href={resolve('/contact')}>Contact</a>
+		<a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href="https://github.com/Jinya-CMS/jinya-cms" target="_blank">
 			<Github />
 		</a>
 	</div>
@@ -46,22 +40,15 @@
 		<Logo height="1em" width="1em" />
 		{mobileTitle}
 	</span>
-	<button aria-label="Toogle navigation" class="jinya-hamburger" on:click={toggleNavigation}
-	></button>
+	<button aria-label="Toogle navigation" class="jinya-hamburger" on:click={toggleNavigation}></button>
 </div>
 <nav class="jinya-nav--mobile" class:jinya-nav--mobile-open={navToggled}>
-	<a class="jinya-nav__link jinya-nav__link--inverse" href="/" on:click={hideNav}>Startpage</a>
-	<a class="jinya-nav__link jinya-nav__link--inverse" href="/about" on:click={hideNav}>About</a>
-	<a class="jinya-nav__link jinya-nav__link--inverse" href="/stories" on:click={hideNav}>Stories</a>
-	<a class="jinya-nav__link jinya-nav__link--inverse" href="/get-jinya" on:click={hideNav}
-		>Get Jinya</a
-	>
-	<a class="jinya-nav__link jinya-nav__link--inverse" href="/contact" on:click={hideNav}>Contact</a>
-	<a
-		class="jinya-nav__link jinya-nav__link--inverse"
-		href="https://github.com/Jinya-CMS/jinya-cms"
-		on:click={hideNav}
-		target="_blank"
+	<a class="jinya-nav__link jinya-nav__link--inverse" href={resolve('/')} on:click={hideNav}>Startpage</a>
+	<a class="jinya-nav__link jinya-nav__link--inverse" href={resolve('/about')} on:click={hideNav}>About</a>
+	<a class="jinya-nav__link jinya-nav__link--inverse" href={resolve('/stories')} on:click={hideNav}>Stories</a>
+	<a class="jinya-nav__link jinya-nav__link--inverse" href={resolve('/get-jinya')} on:click={hideNav}>Get Jinya</a>
+	<a class="jinya-nav__link jinya-nav__link--inverse" href={resolve('/contact')} on:click={hideNav}>Contact</a>
+	<a class="jinya-nav__link jinya-nav__link--inverse" href="https://github.com/Jinya-CMS/jinya-cms" on:click={hideNav} target="_blank"
 		>Github
 	</a>
 </nav>
