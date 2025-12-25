@@ -7,7 +7,7 @@
 	<span class="jinya-footer__entry">Made with <span class="jinya-heart">♥</span> in Hildesheim</span>
 	<div class="jinya-footer__links">
 		<a class="jinya-footer__entry jinya-footer__entry--link" href={resolve('/data-protection')}>Data Protection</a>
-		<a class="jinya-footer__entry jinya-footer__entry--link" href={resolve('/imprint')}>Imprint</a>
+		<a class="jinya-footer__entry jinya-footer__entry--link" href={resolve('/imprint')}>Legal notice</a>
 	</div>
 </footer>
 
