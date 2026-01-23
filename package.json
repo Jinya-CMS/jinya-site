@@ -15,7 +15,7 @@
 		"@fontsource/oxygen-mono": "^5.2.8",
 		"@fontsource/urbanist": "^5.2.7",
 		"@poppanator/sveltekit-svg": "^5.0.1",
-		"@sveltejs/kit": "^2.50.0",
+		"@sveltejs/kit": "^2.50.1",
 		"@sveltejs/vite-plugin-svelte": "^5.1.1",
 		"eslint": "^9.39.2",
 		"eslint-config-prettier": "^10.1.8",
