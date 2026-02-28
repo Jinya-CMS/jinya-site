@@ -1,4 +1,5 @@
-import * as nodemailer from 'nodemailer';
+import { env } from '$env/dynamic/private';
+import { createTransport } from 'nodemailer';
 
 /** @type {import("./$types").Actions} */
 export const actions = {
@@ -10,13 +11,13 @@ export const actions = {
 			const concern = data.get('concern');
 			const message = data.get('message');
 
-			const transport = nodemailer.createTransport({
-				host: process.env.MAIL_SERVER,
-				port: process.env.MAIL_PORT,
-				secure: false,
+			const transport = createTransport({
+				host: env.MAIL_SERVER,
+				port: env.MAIL_PORT,
+				secure: true,
 				auth: {
-					user: process.env.MAIL_USER,
-					pass: process.env.MAIL_PASS
+					user: env.MAIL_USER,
+					pass: env.MAIL_PASS
 				}
 			});
 			const mail = {

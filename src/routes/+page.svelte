@@ -37,7 +37,7 @@
 			<div class="jinya-who__description">
 				<a href="https://imanuel.dev">Imanuel Ulbricht</a> is a developer and designer based in Hildesheim, Germany. He develops websites, desktop
 				applications and mobile applications. Together with Jenny he started the development of the Jinya CMS back in October 2017. He has developed
-				several open source projects since then and is currently employed at GOD mbH in Brunswick, Germany.
+				several open source projects since then and is currently employed at HDI Global in Hanover, Germany.
 			</div>
 		</div>
 		<div class="jinya-who__row jinya-who__row--inverse">
@@ -48,8 +48,7 @@
 			<div class="jinya-who__description">
 				<a href="https://jenny-jinya.com">Jenny Hefczyc</a>, better known as Jenny-Jinya, is the artist the Jinya CMS was originally
 				developed for. She had her first exhibition at the age of 16 and is currently active as self-employed and freelance artist. She is
-				most famously known for her work on the Loving Reaper series. The Loving Reaper series features, as of now, two publications and
-				more are planned.
+				most famously known for her work on the Loving Reaper series. The Loving Reaper series features multiple publications.
 			</div>
 		</div>
 	</Article>
