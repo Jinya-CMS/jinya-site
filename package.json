@@ -28,7 +28,7 @@
 		"svelte": "5.55.0",
 		"svelte-adapter-bun": "1.0.1",
 		"svgo": "4.0.1",
-		"vite": "8.0.2",
+		"vite": "8.0.3",
 		"vite-plugin-image-optimizer": "2.0.3"
 	},
 	"type": "module"
