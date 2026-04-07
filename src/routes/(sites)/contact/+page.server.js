@@ -11,7 +11,8 @@ export const actions = {
 			const concern = data.get('concern');
 			const message = data.get('message');
 
-			if (!email || !name || !concern || !message) return { success: true };
+			if (!email || !name || !concern || !message || email === '' || name === '' || concern === '' || message === '')
+				return { success: true };
 
 			const transport = createTransport({
 				host: env.MAIL_SERVER,
