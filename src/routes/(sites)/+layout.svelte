@@ -29,7 +29,7 @@
 </main>
 
 <svelte:head>
-	<title>{`Jinya CMS – ${title}`}</title>
+	<title>{`Jinya Project – ${title}`}</title>
 </svelte:head>
 
 <style>

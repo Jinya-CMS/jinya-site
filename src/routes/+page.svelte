@@ -10,7 +10,7 @@
 	import '@fontsource/urbanist/200.css';
 	import '@fontsource/urbanist/400.css';
 
-	titleStore.set('Jinya CMS');
+	titleStore.set('Jinya Project');
 </script>
 
 <main>
@@ -18,16 +18,12 @@
 		<img alt="Header image" aria-hidden="true" class="jinya-header__image" src="/img/startpage.webp" />
 		<Navigation inverse="true" />
 		<div class="jinya-callout">
-			<h1 class="jinya-callout__title">Jinya CMS</h1>
-			<p class="jinya-callout__claim">The simplest way to manage your portfolio</p>
+			<h1 class="jinya-callout__title">Jinya Project</h1>
+			<p class="jinya-callout__claim">Enable artists to focus on what's important</p>
 		</div>
 		<span class="jinya-header__copyright">Picture: Generated with Stable Diffusion, by Imanuel Ulbricht</span>
 	</header>
-	<Article title="Why choose Jinya">
-		The Jinya CMS is made by artists for artists. Every part of Jinya was designed with ease of use in mind. During development everything
-		evolves around displaying digital art and putting your artworks in the center of attention for your fans. There are countless other CMS
-		out there, but most of them concentrate on text based content. Jinya focuses on images and artworks.
-	</Article>
+
 	<Article title="Who's behind it">
 		<div class="jinya-who__row">
 			<div class="jinya-who">
@@ -56,7 +52,7 @@
 </main>
 
 <svelte:head>
-	<title>Jinya CMS</title>
+	<title>Jinya Project</title>
 </svelte:head>
 
 <style>

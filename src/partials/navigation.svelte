@@ -1,6 +1,5 @@
 <script>
 	import { titleStore } from '../routes/(sites)/stores.js';
-	import Logo from '../Logo.svg?component';
 	import Github from '../Github.svg?component';
 	import { resolve } from '$app/paths';
 
@@ -20,24 +19,22 @@
 
 <nav class="jinya-nav jinya-nav--desktop" class:jinya-nav--inverse={inverse}>
 	<div class="jinya-nav__left">
-		<a class="jinya-nav__brand" class:jinya-nav__brand--inverse={inverse} href={resolve('/')}>
-			<Logo height="1em" width="1em" />
-			Jinya CMS
-		</a>
+		<a class="jinya-nav__brand" class:jinya-nav__brand--inverse={inverse} href={resolve('/')}> Jinya Project </a>
 	</div>
 	<div class="jinya-nav__right">
 		<a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href={resolve('/about')}>About</a>
 		<a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href={resolve('/stories')}>Stories</a>
-		<a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href={resolve('/get-jinya')}>Get Jinya</a>
+		<a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href={resolve('/jinya-cms')}>Jinya CMS</a>
+		<a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href={resolve('/jinya-fonts')}>Jinya Fonts</a>
+		<a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href="https://plan.jinya.de" target="_blank"> Jinya Plan </a>
 		<a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href={resolve('/contact')}>Contact</a>
-		<a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href="https://github.com/Jinya-CMS/jinya-cms" target="_blank">
+		<a class="jinya-nav__link" class:jinya-nav__link--inverse={inverse} href="https://github.com/Jinya-CMS" target="_blank">
 			<Github />
 		</a>
 	</div>
 </nav>
 <div class="jinya-nav__bar--mobile">
 	<span class="jinya-nav__brand jinya-nav__brand--inverse">
-		<Logo height="1em" width="1em" />
 		{mobileTitle}
 	</span>
 	<button aria-label="Toogle navigation" class="jinya-hamburger" on:click={toggleNavigation}></button>
@@ -46,11 +43,11 @@
 	<a class="jinya-nav__link jinya-nav__link--inverse" href={resolve('/')} on:click={hideNav}>Startpage</a>
 	<a class="jinya-nav__link jinya-nav__link--inverse" href={resolve('/about')} on:click={hideNav}>About</a>
 	<a class="jinya-nav__link jinya-nav__link--inverse" href={resolve('/stories')} on:click={hideNav}>Stories</a>
-	<a class="jinya-nav__link jinya-nav__link--inverse" href={resolve('/get-jinya')} on:click={hideNav}>Get Jinya</a>
+	<a class="jinya-nav__link jinya-nav__link--inverse" href={resolve('/jinya-cms')} on:click={hideNav}>Jinya CMS</a>
+	<a class="jinya-nav__link jinya-nav__link--inverse" href={resolve('/jinya-fonts')} on:click={hideNav}>Jinya Fonts</a>
+	<a class="jinya-nav__link jinya-nav__link--inverse" href="https://plan.jinya.de" target="_blank"> Jinya Plan </a>
 	<a class="jinya-nav__link jinya-nav__link--inverse" href={resolve('/contact')} on:click={hideNav}>Contact</a>
-	<a class="jinya-nav__link jinya-nav__link--inverse" href="https://github.com/Jinya-CMS/jinya-cms" on:click={hideNav} target="_blank"
-		>Github
-	</a>
+	<a class="jinya-nav__link jinya-nav__link--inverse" href="https://github.com/Jinya-CMS" on:click={hideNav} target="_blank">Github </a>
 </nav>
 
 <style>
@@ -154,10 +151,10 @@
 	}
 
 	.jinya-nav__brand {
-		font-size: 1.5rem;
+		font-size: 1.75rem;
 		text-decoration: none;
 		color: var(--menu-item-color);
-		font-weight: 700;
+		font-weight: 500;
 		display: flex;
 		align-items: center;
 	}

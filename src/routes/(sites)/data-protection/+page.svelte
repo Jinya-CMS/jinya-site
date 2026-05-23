@@ -7,8 +7,8 @@
 
 <Article title="Privacy Policy for jinya.de">
 	<p>
-		At Jinya CMS, accessible from jinya.de, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains
-		types of information that is collected and recorded by Jinya CMS and how we use it.
+		At Jinya Project, accessible from jinya.de, one of our main priorities is the privacy of our visitors. This Privacy Policy document
+		contains types of information that is collected and recorded by Jinya Project and how we use it.
 	</p>
 
 	<p>
@@ -53,11 +53,11 @@
 
 	<h2 class="jinya-header">Log Files</h2>
 
-	<p>Jinya CMS does not create log files and has no plans to do so.</p>
+	<p>Jinya Project does not create log files and has no plans to do so.</p>
 
 	<h2 class="jinya-header">Partner Privacy Policies</h2>
 
-	<p>Jinya CMS does not include any external scripts or images.</p>
+	<p>Jinya Project does not include any external scripts or images.</p>
 
 	<h2 class="jinya-header">Contacting us</h2>
 	<p>When you contact us only the data you included in the form are sent to us, no more data are acquired.</p>
