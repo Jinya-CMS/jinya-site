@@ -9,14 +9,14 @@
         "@fontsource/albert-sans": "5.3.0",
         "@fontsource/oxygen-mono": "5.3.0",
         "@fontsource/urbanist": "5.3.0",
-        "@poppanator/sveltekit-svg": "7.0.0",
+        "@poppanator/sveltekit-svg": "7.0.1",
         "@sveltejs/kit": "2.70.2",
         "@sveltejs/vite-plugin-svelte": "7.2.0",
         "eslint": "10.8.0",
         "eslint-config-prettier": "10.1.8",
         "eslint-plugin-svelte": "3.22.0",
         "globals": "17.9.0",
-        "nodemailer": "9.0.3",
+        "nodemailer": "9.0.4",
         "prettier": "3.9.6",
         "prettier-plugin-svelte": "4.1.1",
         "sharp": "0.35.3",
@@ -135,7 +135,7 @@
 
     "@polka/url": ["@polka/url@1.0.0-next.29", "", {}, "sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww=="],
 
-    "@poppanator/sveltekit-svg": ["@poppanator/sveltekit-svg@7.0.0", "", { "dependencies": { "@rollup/pluginutils": "5.3.0", "svgo": "^4.0.1" }, "peerDependencies": { "svelte": ">=5.x", "vite": ">= 6 || >= 7 || >= 8" } }, "sha512-3SD8TLEqpieEW++ebWVm2qYTrlMJJO552uFJALHDNkZP5DFM5Xnq55SX53/d2aDCtjCemvrXhPT9YsduZkcH2w=="],
+    "@poppanator/sveltekit-svg": ["@poppanator/sveltekit-svg@7.0.1", "", { "dependencies": { "@rollup/pluginutils": "5.3.0", "svgo": "^4.0.1" }, "peerDependencies": { "svelte": ">=5.x", "vite": ">= 6 || >= 7 || >= 8" } }, "sha512-dj0AQPxssbyQ/gwJccLbegyek6sA8SWcW2lNp5gI0mLQCw4giz0OE6IGmlaAP0SAitpWU3V3ssCQu9Z+8U3Rkg=="],
 
     "@rolldown/binding-android-arm64": ["@rolldown/binding-android-arm64@1.0.0-rc.8", "", { "os": "android", "cpu": "arm64" }, "sha512-5bcmMQDWEfWUq3m79Mcf/kbO6e5Jr6YjKSsA1RnpXR6k73hQ9z1B17+4h93jXpzHvS18p7bQHM1HN/fSd+9zog=="],
 
@@ -367,7 +367,7 @@
 
     "natural-compare": ["natural-compare@1.4.0", "", {}, "sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw=="],
 
-    "nodemailer": ["nodemailer@9.0.3", "", {}, "sha512-n+YP+NKwR5zRWa60k3GiQ6Q3B4KXCoAw40dAKeCtYn020iNN74aWK2liXIC3ZEATeGql7we3tE3t8QwhY0eskw=="],
+    "nodemailer": ["nodemailer@9.0.4", "", {}, "sha512-LmJNRVRtfSCULxcZpy0Cpg4WWenlUZ9+zbmTO+S7v9wD6XreYLjXRFtDjtV/4F0HT5p1GyZfA0Ux/myxHb18CQ=="],
 
     "nth-check": ["nth-check@2.1.1", "", { "dependencies": { "boolbase": "^1.0.0" } }, "sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w=="],
 
@@ -470,8 +470,6 @@
     "@napi-rs/wasm-runtime/@emnapi/core": ["@emnapi/core@1.8.1", "", { "dependencies": { "@emnapi/wasi-threads": "1.1.0", "tslib": "^2.4.0" } }, "sha512-AvT9QFpxK0Zd8J0jopedNm+w/2fIzvtPKPjqyw9jwvBaReTTqPBk9Hixaz7KbjimP+QNz605/XnjFcDAL2pqBg=="],
 
     "@napi-rs/wasm-runtime/@emnapi/runtime": ["@emnapi/runtime@1.8.1", "", { "dependencies": { "tslib": "^2.4.0" } }, "sha512-mehfKSMWjjNol8659Z8KxEMrdSJDDot5SXMq00dM8BN4o+CLNXQ0xH2V7EchNHV4RmbZLmmPdEaXZc5H2FXmDg=="],
-
-    "@poppanator/sveltekit-svg/svgo": ["svgo@4.0.1", "", { "dependencies": { "commander": "^11.1.0", "css-select": "^5.1.0", "css-tree": "^3.0.1", "css-what": "^6.1.0", "csso": "^5.0.5", "picocolors": "^1.1.1", "sax": "^1.5.0" }, "bin": "./bin/svgo.js" }, "sha512-XDpWUOPC6FEibaLzjfe0ucaV0YrOjYotGJO1WpF0Zd+n6ZGEQUsSugaoLq9QkEZtAfQIxT42UChcssDVPP3+/w=="],
 
     "@rollup/pluginutils/picomatch": ["picomatch@4.0.4", "", {}, "sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A=="],
 
