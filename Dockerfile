@@ -8,4 +8,4 @@ EXPOSE 3000
 
 WORKDIR /app
 
-ENTRYPOINT ["bun", "/app/index.js"]
+ENTRYPOINT ["bun", "/app"]
